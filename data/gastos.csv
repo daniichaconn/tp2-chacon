@@ -1,0 +1,63 @@
+gasto_id,fecha,descripcion,pagador,monto,participantes
+G001,2026-07-06,Alojamiento cabaña 7 noches,Ana,875000,Ana;Bruno;Carla;Diego;Elena
+G002,2026-07-06,Cervecería,Elena,55901.99,Bruno;Diego
+G003,2026-07-06,Remis,Carla,22381,Ana;Bruno;Carla;Diego;Elena
+G004,2026-07-06,Remis,Bruno,15508,Carla;Diego
+G005,2026-07-06,Cervecería,Ana,56533.25,Ana;Bruno;Carla;Diego
+G006,2026-07-06,Café y medialunas,Ana,17646,Bruno;Carla;Diego;Elena
+G007,2026-07-06,Cervecería,Diego,53184.25,Ana;Bruno;Carla;Diego;Elena
+G008,2026-07-06,Remis,Elena,12678,Ana;Bruno;Carla;Diego;Elena
+G009,2026-07-07,Alquiler de equipo de esquí,Diego,63666.5,Diego;Elena
+G010,2026-07-07,Almuerzo,Elena,46449.25,Diego;Elena
+G011,2026-07-07,Chocolates,Diego,14636,Bruno;Diego;Elena
+G012,2026-07-07,Café y medialunas,Elena,13507.25,Ana;Bruno
+G013,2026-07-07,Remis,Diego,17376.5,Bruno;Carla;Diego;Elena
+G014,2026-07-07,Chocolates,Diego,30588.99,Ana;Bruno;Carla;Diego;Elena
+G015,2026-07-07,Alquiler de equipo de esquí,Ana,79926.5,Bruno;Carla;Diego;Elena
+G016,2026-07-08,Nafta,Ana,69571.25,Ana;Bruno;Carla;Diego;Elena
+G017,2026-07-08,Alquiler de equipo de esquí,Bruno,60835.25,Bruno;Elena
+G018,2026-07-08,Supermercado,Bruno,60769,Ana;Bruno;Carla;Diego;Elena
+G019,2026-07-08,Remis,Diego,19953,Ana;Carla;Elena
+G020,2026-07-08,Cena,Diego,61852,Ana;Bruno;Carla;Diego;Elena
+G021,2026-07-08,Chocolates,Carla,29177,Ana
+G022,2026-07-08,Supermercado,Carla,84897,Ana;Bruno;Carla;Diego;Elena
+G023,2026-07-08,Remis,Elena,14511.5,Ana;Bruno;Carla;Diego;Elena
+G024,2026-07-08,Pase Cerro Catedral,Bruno,92723,Ana;Diego;Elena
+G025,2026-07-09,Remis,Elena,12583.25,Ana;Diego;Elena
+G026,2026-07-09,Cena,Diego,129862.5,Bruno;Diego;Elena
+G027,2026-07-09,Nafta,Diego,72610.5,Ana;Bruno;Carla;Diego;Elena
+G028,2026-07-09,Café y medialunas,Ana,14638.25,Ana;Bruno;Carla;Diego;Elena
+G029,2026-07-09,Café y medialunas,Ana,7525.5,Bruno;Elena
+G030,2026-07-09,Excursión Circuito Chico,Bruno,53049.25,Ana;Bruno;Diego;Elena
+G031,2026-07-09,Excursión Circuito Chico,Elena,49313.25,Ana;Bruno;Carla;Diego;Elena
+G032,2026-07-10,Excursión Circuito Chico,Bruno,36949.99,Ana;Bruno;Carla;Diego;Elena
+G033,2026-07-10,Supermercado,Elena,79879,Ana;Bruno;Carla;Diego;Elena
+G034,2026-07-10,Café y medialunas,Ana,12744,Ana;Bruno;Carla;Elena
+G035,2026-07-10,Chocolates,Ana,15707,Ana
+G036,2026-07-10,Café y medialunas,Carla,13471.25,Ana;Carla
+G037,2026-07-10,Excursión Circuito Chico,Elena,60321.5,Ana;Bruno;Carla;Diego;Elena
+G038,2026-07-10,Excursión Circuito Chico,Carla,83530,Bruno;Carla;Elena
+G039,2026-07-10,Supermercado,Ana,44460.5,Ana;Bruno;Carla;Diego;Elena
+G040,2026-07-10,Cervecería,Bruno,56756,Carla;Elena
+G041,2026-07-11,Cena,Elena,144920.99,Ana;Bruno;Carla;Diego;Elena
+G042,2026-07-11,Café y medialunas,Carla,12804.5,Bruno;Diego
+G043,2026-07-11,Chocolates,Bruno,14011.25,Bruno;Diego
+G044,2026-07-11,Supermercado,Carla,60464.5,Ana;Bruno;Carla;Diego;Elena
+G045,2026-07-11,Chocolates,Elena,10930,Bruno;Carla;Elena
+G046,2026-07-11,Alquiler de equipo de esquí,Carla,113216.99,Carla;Elena
+G047,2026-07-11,Cervecería,Diego,23820,Ana;Bruno
+G048,2026-07-12,Chocolates,Bruno,20279,Bruno;Carla;Elena
+G049,2026-07-12,Remis,Bruno,19289.5,Ana;Bruno;Carla;Diego;Elena
+G050,2026-07-12,Cena,Ana,143770,Ana;Bruno;Carla;Diego
+G051,2026-07-12,Nafta,Elena,54229.99,Ana;Bruno;Carla;Diego;Elena
+G052,2026-07-12,Pase Cerro Catedral,Elena,137711.99,Ana;Bruno;Carla;Elena
+G053,2026-07-12,Excursión Circuito Chico,Bruno,78010.5,Ana;Diego;Elena
+G054,2026-07-12,Cervecería,Bruno,39196,Ana;Carla;Diego;Elena
+G055,2026-07-12,Alquiler de equipo de esquí,Ana,107916.5,Ana;Bruno;Carla;Diego
+G011,2026-07-07,Chocolates (cargado dos veces),Diego,14636,Bruno;Diego;Elena
+G9,2026-07-08,Helado,Bruno,9000,Bruno;Carla
+G056,2026-06-31,Peaje,Diego,4500,Ana;Bruno;Carla;Diego;Elena
+G057,2026-07-09,Farmacia,Elena,"1.500,00",Elena
+G058,2026-07-10,Devolución,Carla,-2500,Ana;Carla
+G059,2026-07-11,Pizza,Franco,32000,Ana;Franco
+G060,2026-07-12,Propina,Ana,5000,

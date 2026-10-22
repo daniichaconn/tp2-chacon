@@ -1,0 +1,774 @@
+[
+  {
+    "gasto_id": "G001",
+    "fecha": "2026-07-06",
+    "descripcion": "Alojamiento cabaña 7 noches",
+    "pagador": "Ana",
+    "monto": 875000,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G002",
+    "fecha": "2026-07-06",
+    "descripcion": "Cervecería",
+    "pagador": "Elena",
+    "monto": 55901.99,
+    "participantes": [
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G003",
+    "fecha": "2026-07-06",
+    "descripcion": "Remis",
+    "pagador": "Carla",
+    "monto": 22381,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G004",
+    "fecha": "2026-07-06",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 15508,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G005",
+    "fecha": "2026-07-06",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 56533.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G006",
+    "fecha": "2026-07-06",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 17646,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G007",
+    "fecha": "2026-07-06",
+    "descripcion": "Cervecería",
+    "pagador": "Diego",
+    "monto": 53184.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G008",
+    "fecha": "2026-07-06",
+    "descripcion": "Remis",
+    "pagador": "Elena",
+    "monto": 12678,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G009",
+    "fecha": "2026-07-07",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Diego",
+    "monto": 63666.5,
+    "participantes": [
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G010",
+    "fecha": "2026-07-07",
+    "descripcion": "Almuerzo",
+    "pagador": "Elena",
+    "monto": 46449.25,
+    "participantes": [
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G011",
+    "fecha": "2026-07-07",
+    "descripcion": "Chocolates",
+    "pagador": "Diego",
+    "monto": 14636,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G012",
+    "fecha": "2026-07-07",
+    "descripcion": "Café y medialunas",
+    "pagador": "Elena",
+    "monto": 13507.25,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G013",
+    "fecha": "2026-07-07",
+    "descripcion": "Remis",
+    "pagador": "Diego",
+    "monto": 17376.5,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G014",
+    "fecha": "2026-07-07",
+    "descripcion": "Chocolates",
+    "pagador": "Diego",
+    "monto": 30588.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G015",
+    "fecha": "2026-07-07",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Ana",
+    "monto": 79926.5,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G016",
+    "fecha": "2026-07-08",
+    "descripcion": "Nafta",
+    "pagador": "Ana",
+    "monto": 69571.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G017",
+    "fecha": "2026-07-08",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Bruno",
+    "monto": 60835.25,
+    "participantes": [
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G018",
+    "fecha": "2026-07-08",
+    "descripcion": "Supermercado",
+    "pagador": "Bruno",
+    "monto": 60769,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G019",
+    "fecha": "2026-07-08",
+    "descripcion": "Remis",
+    "pagador": "Diego",
+    "monto": 19953,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G020",
+    "fecha": "2026-07-08",
+    "descripcion": "Cena",
+    "pagador": "Diego",
+    "monto": 61852,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G021",
+    "fecha": "2026-07-08",
+    "descripcion": "Chocolates",
+    "pagador": "Carla",
+    "monto": 29177,
+    "participantes": [
+      "Ana"
+    ]
+  },
+  {
+    "gasto_id": "G022",
+    "fecha": "2026-07-08",
+    "descripcion": "Supermercado",
+    "pagador": "Carla",
+    "monto": 84897,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G023",
+    "fecha": "2026-07-08",
+    "descripcion": "Remis",
+    "pagador": "Elena",
+    "monto": 14511.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G024",
+    "fecha": "2026-07-08",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Bruno",
+    "monto": 92723,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G025",
+    "fecha": "2026-07-09",
+    "descripcion": "Remis",
+    "pagador": "Elena",
+    "monto": 12583.25,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G026",
+    "fecha": "2026-07-09",
+    "descripcion": "Cena",
+    "pagador": "Diego",
+    "monto": 129862.5,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G027",
+    "fecha": "2026-07-09",
+    "descripcion": "Nafta",
+    "pagador": "Diego",
+    "monto": 72610.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G028",
+    "fecha": "2026-07-09",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 14638.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G029",
+    "fecha": "2026-07-09",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 7525.5,
+    "participantes": [
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G030",
+    "fecha": "2026-07-09",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Bruno",
+    "monto": 53049.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G031",
+    "fecha": "2026-07-09",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Elena",
+    "monto": 49313.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G032",
+    "fecha": "2026-07-10",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Bruno",
+    "monto": 36949.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G033",
+    "fecha": "2026-07-10",
+    "descripcion": "Supermercado",
+    "pagador": "Elena",
+    "monto": 79879,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G034",
+    "fecha": "2026-07-10",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 12744,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G035",
+    "fecha": "2026-07-10",
+    "descripcion": "Chocolates",
+    "pagador": "Ana",
+    "monto": 15707,
+    "participantes": [
+      "Ana"
+    ]
+  },
+  {
+    "gasto_id": "G036",
+    "fecha": "2026-07-10",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 13471.25,
+    "participantes": [
+      "Ana",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G037",
+    "fecha": "2026-07-10",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Elena",
+    "monto": 60321.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G038",
+    "fecha": "2026-07-10",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Carla",
+    "monto": 83530,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G039",
+    "fecha": "2026-07-10",
+    "descripcion": "Supermercado",
+    "pagador": "Ana",
+    "monto": 44460.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G040",
+    "fecha": "2026-07-10",
+    "descripcion": "Cervecería",
+    "pagador": "Bruno",
+    "monto": 56756,
+    "participantes": [
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G041",
+    "fecha": "2026-07-11",
+    "descripcion": "Cena",
+    "pagador": "Elena",
+    "monto": 144920.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G042",
+    "fecha": "2026-07-11",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 12804.5,
+    "participantes": [
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G043",
+    "fecha": "2026-07-11",
+    "descripcion": "Chocolates",
+    "pagador": "Bruno",
+    "monto": 14011.25,
+    "participantes": [
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G044",
+    "fecha": "2026-07-11",
+    "descripcion": "Supermercado",
+    "pagador": "Carla",
+    "monto": 60464.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G045",
+    "fecha": "2026-07-11",
+    "descripcion": "Chocolates",
+    "pagador": "Elena",
+    "monto": 10930,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G046",
+    "fecha": "2026-07-11",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Carla",
+    "monto": 113216.99,
+    "participantes": [
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G047",
+    "fecha": "2026-07-11",
+    "descripcion": "Cervecería",
+    "pagador": "Diego",
+    "monto": 23820,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G048",
+    "fecha": "2026-07-12",
+    "descripcion": "Chocolates",
+    "pagador": "Bruno",
+    "monto": 20279,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G049",
+    "fecha": "2026-07-12",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 19289.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G050",
+    "fecha": "2026-07-12",
+    "descripcion": "Cena",
+    "pagador": "Ana",
+    "monto": 143770,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G051",
+    "fecha": "2026-07-12",
+    "descripcion": "Nafta",
+    "pagador": "Elena",
+    "monto": 54229.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G052",
+    "fecha": "2026-07-12",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Elena",
+    "monto": 137711.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G053",
+    "fecha": "2026-07-12",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Bruno",
+    "monto": 78010.5,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G054",
+    "fecha": "2026-07-12",
+    "descripcion": "Cervecería",
+    "pagador": "Bruno",
+    "monto": 39196,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G055",
+    "fecha": "2026-07-12",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Ana",
+    "monto": 107916.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G011",
+    "fecha": "2026-07-07",
+    "descripcion": "Chocolates (cargado dos veces)",
+    "pagador": "Diego",
+    "monto": 14636,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G9",
+    "fecha": "2026-07-08",
+    "descripcion": "Helado",
+    "pagador": "Bruno",
+    "monto": 9000,
+    "participantes": [
+      "Bruno",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G056",
+    "fecha": "2026-06-31",
+    "descripcion": "Peaje",
+    "pagador": "Diego",
+    "monto": 4500,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G057",
+    "fecha": "2026-07-09",
+    "descripcion": "Farmacia",
+    "pagador": "Elena",
+    "monto": "1.500,00",
+    "participantes": [
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G058",
+    "fecha": "2026-07-10",
+    "descripcion": "Devolución",
+    "pagador": "Carla",
+    "monto": -2500,
+    "participantes": [
+      "Ana",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G059",
+    "fecha": "2026-07-11",
+    "descripcion": "Pizza",
+    "pagador": "Franco",
+    "monto": 32000,
+    "participantes": [
+      "Ana",
+      "Franco"
+    ]
+  },
+  {
+    "gasto_id": "G060",
+    "fecha": "2026-07-12",
+    "descripcion": "Propina",
+    "pagador": "Ana",
+    "monto": 5000,
+    "participantes": []
+  }
+]
