@@ -1,0 +1,14 @@
+# Entornos virtuales y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Resultados generados al ejecutar el programa (se pueden volver a crear)
+outputs/
+
+# Configuración local y archivos del sistema
+.env
+.vscode/
+.DS_Store
+Thumbs.db
