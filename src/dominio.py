@@ -19,7 +19,11 @@ class ErrorDatos(Exception):
 
 @dataclass(frozen=True)
 class Gasto:
-    """Un gasto pagado por una persona y repartido en partes iguales."""
+    """Un gasto pagado por una persona y repartido en partes iguales.
+
+    evento: a qué salida o viaje pertenece (por ejemplo "Viaje a Bariloche").
+    categoria: tipo de gasto (Alojamiento, Transporte, Supermercado, ...).
+    """
 
     gasto_id: str
     fecha: date
@@ -27,6 +31,8 @@ class Gasto:
     pagador: str
     monto_centavos: int
     participantes: tuple
+    evento: str = "Sin evento"
+    categoria: str = "Otros"
 
     def __post_init__(self):
         if self.monto_centavos <= 0:
@@ -115,6 +121,37 @@ class Grupo:
         pagado = self.pagado_por_persona()
         consumido = self.consumido_por_persona()
         return {p: pagado[p] - consumido[p] for p in self.integrantes}
+
+    def deudas_por_gasto(self):
+        """Lo que pasaría SIN organizar: cada participante le paga su parte al
+        pagador de cada gasto. Devuelve (deudor, acreedor, centavos) por cada parte.
+        """
+        deudas = []
+        for gasto in self._gastos:
+            for persona, cuota in gasto.cuota_por_persona().items():
+                if persona != gasto.pagador and cuota > 0:
+                    deudas.append((persona, gasto.pagador, cuota))
+        return deudas
+
+    def deudas_netas_por_pares(self):
+        """Compensa las deudas entre cada par de personas.
+
+        Si Ana le debe 500 a Bruno y Bruno le debe 200 a Ana, queda una sola
+        deuda: Ana -> Bruno 300. Devuelve la lista (deudor, acreedor, centavos).
+        """
+        neto = {}
+        for deudor, acreedor, monto in self.deudas_por_gasto():
+            par = tuple(sorted((deudor, acreedor)))
+            # positivo: el primero del par le debe al segundo
+            signo = 1 if deudor == par[0] else -1
+            neto[par] = neto.get(par, 0) + signo * monto
+        resultado = []
+        for (a, b), monto in sorted(neto.items()):
+            if monto > 0:
+                resultado.append((a, b, monto))
+            elif monto < 0:
+                resultado.append((b, a, -monto))
+        return resultado
 
     def transferencias(self):
         """Lista de transferencias (deudor, acreedor, centavos) que saldan todo.

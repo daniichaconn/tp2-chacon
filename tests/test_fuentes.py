@@ -30,12 +30,12 @@ class TestFuentes(unittest.TestCase):
         csv = FuenteCSV(RAIZ / "data" / "gastos.csv").cargar()
         json = FuenteJSON(RAIZ / "data" / "gastos.json").cargar()
         self.assertEqual(len(csv), len(json))
-        self.assertGreaterEqual(len(csv), 50)
+        self.assertGreaterEqual(len(csv), 300)
         self.assertEqual(csv, json)
 
     def test_csv_separa_participantes(self):
-        ruta = self.escribir("g.csv", "gasto_id,fecha,descripcion,pagador,monto,participantes\n"
-                                      "G001,2026-07-06,Pizza,Ana,3000,Ana; Bruno ;Carla\n")
+        ruta = self.escribir("g.csv", "gasto_id,fecha,evento,categoria,descripcion,pagador,monto,participantes\n"
+                                      "G001,2026-07-06,Asado,Supermercado,Pizza,Ana,3000,Ana; Bruno ;Carla\n")
         fila = FuenteCSV(ruta).cargar()[0]
         self.assertEqual(fila["participantes"], ["Ana", "Bruno", "Carla"])
         self.assertEqual(fila["monto"], "3000")
@@ -70,8 +70,8 @@ class TestFuentes(unittest.TestCase):
 
     def test_cargar_grupo(self):
         nombre, integrantes = cargar_grupo(RAIZ / "data" / "grupo.json")
-        self.assertIn("Bariloche", nombre)
-        self.assertEqual(len(integrantes), 5)
+        self.assertIn("2026", nombre)
+        self.assertEqual(len(integrantes), 6)
 
 
 if __name__ == "__main__":

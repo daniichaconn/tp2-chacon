@@ -72,6 +72,23 @@ class TestGrupo(unittest.TestCase):
         with self.assertRaises(ErrorDatos):
             grupo.registrar(gasto("G001", "Franco", 100, ["Ana", "Franco"]))
 
+    def test_deudas_sin_simplificar(self):
+        # cada participante que no pagó le debe su parte al pagador
+        grupo = Grupo("Prueba", INTEGRANTES)
+        grupo.registrar(gasto("G001", "Ana", 3000, ["Ana", "Bruno", "Carla"]))
+        self.assertEqual(
+            sorted(grupo.deudas_por_gasto()),
+            [("Bruno", "Ana", 100000), ("Carla", "Ana", 100000)],
+        )
+
+    def test_deudas_por_pares_se_compensan(self):
+        # Bruno le debe 500 a Ana y Ana le debe 200 a Bruno: queda Bruno -> Ana 300
+        grupo = Grupo("Prueba", INTEGRANTES)
+        grupo.registrar(gasto("G001", "Ana", 1000, ["Ana", "Bruno"]))
+        grupo.registrar(gasto("G002", "Bruno", 400, ["Ana", "Bruno"]))
+        self.assertEqual(len(grupo.deudas_por_gasto()), 2)
+        self.assertEqual(grupo.deudas_netas_por_pares(), [("Bruno", "Ana", 30000)])
+
     def test_propiedades_con_muchos_gastos(self):
         """Propiedades que valen para cualquier conjunto de gastos."""
         grupo = Grupo("Prueba", INTEGRANTES)
@@ -90,6 +107,8 @@ class TestGrupo(unittest.TestCase):
         self.assertTrue(all(s == 0 for s in saldos.values()))
         # 3) nunca más de n - 1 transferencias
         self.assertLessEqual(len(transferencias), len(personas) - 1)
+        # 4) compensar por pares nunca genera más deudas que pagar gasto por gasto
+        self.assertLessEqual(len(grupo.deudas_netas_por_pares()), len(grupo.deudas_por_gasto()))
 
 
 if __name__ == "__main__":

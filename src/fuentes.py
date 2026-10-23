@@ -13,7 +13,8 @@ from pathlib import Path
 
 from dominio import ErrorDatos
 
-COLUMNAS = ["gasto_id", "fecha", "descripcion", "pagador", "monto", "participantes"]
+COLUMNAS = ["gasto_id", "fecha", "evento", "categoria", "descripcion",
+            "pagador", "monto", "participantes"]
 SEPARADOR_PARTICIPANTES = ";"
 
 

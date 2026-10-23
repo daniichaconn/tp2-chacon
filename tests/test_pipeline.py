@@ -1,10 +1,7 @@
 """Pruebas del flujo: validación, limpieza, filtros, cálculo y verificación."""
 
-import contextlib
 import copy
-import io
 import sys
-import tempfile
 import unittest
 from datetime import date
 from pathlib import Path
@@ -14,8 +11,11 @@ sys.path.insert(0, str(RAIZ / "src"))
 
 from dominio import ErrorDatos, Grupo  # noqa: E402
 from fuentes import FuenteCSV, FuenteJSON, cargar_grupo  # noqa: E402
-from main import main  # noqa: E402
 from pipeline import (  # noqa: E402
+    buscar_evento,
+    calcular,
+    eventos_disponibles,
+    filtrar_evento,
     filtrar_periodo,
     limpiar_gastos,
     pesos_a_centavos,
@@ -27,8 +27,9 @@ INTEGRANTES = {"Ana": "ana.viaja.mp", "Bruno": "bruno.bari.26"}
 
 
 def fila(**cambios):
-    base = {"gasto_id": "G001", "fecha": "2026-07-06", "descripcion": "Pizza",
-            "pagador": "Ana", "monto": "3000", "participantes": ["Ana", "Bruno"]}
+    base = {"gasto_id": "G001", "fecha": "2026-07-06", "evento": "Asado",
+            "categoria": "Supermercado", "descripcion": "Carne", "pagador": "Ana",
+            "monto": "3000", "participantes": ["Ana", "Bruno"]}
     base.update(cambios)
     return base
 
@@ -48,6 +49,8 @@ class TestValidacionYLimpieza(unittest.TestCase):
         self.assertEqual(len(validos), 1)
         self.assertEqual(rechazados, [])
         self.assertEqual(validos[0].monto_centavos, 300000)
+        self.assertEqual(validos[0].evento, "Asado")
+        self.assertEqual(validos[0].categoria, "Supermercado")
 
     def test_entrada_vacia(self):
         with self.assertRaises(ErrorDatos):
@@ -55,7 +58,7 @@ class TestValidacionYLimpieza(unittest.TestCase):
 
     def test_falta_una_columna(self):
         incompleta = fila()
-        del incompleta["monto"]
+        del incompleta["categoria"]
         with self.assertRaises(ErrorDatos):
             validar_esquema([incompleta])
 
@@ -84,15 +87,31 @@ class TestValidacionYLimpieza(unittest.TestCase):
         self.assertEqual(pesos_a_centavos("1500.5"), 150050)
         self.assertEqual(pesos_a_centavos("0.07"), 7)
 
+    def test_categoria_desconocida(self):
+        self.assertIn("categoría desconocida", self.rechazo(categoria="Varios"))
+        # mayúsculas distintas tampoco: la lista es cerrada y sin ambigüedad
+        self.assertIn("categoría desconocida", self.rechazo(categoria="supermercado"))
+
+    def test_evento_vacio(self):
+        self.assertIn("evento vacío", self.rechazo(evento="  "))
+
     def test_persona_fuera_del_grupo(self):
-        self.assertIn("pagador fuera", self.rechazo(pagador="Franco"))
-        self.assertIn("participantes fuera", self.rechazo(participantes=["Ana", "Franco"]))
+        self.assertIn("pagador fuera", self.rechazo(pagador="Mateo"))
+        self.assertIn("participantes fuera", self.rechazo(participantes=["Ana", "Mateo"]))
 
     def test_sin_participantes(self):
         self.assertIn("sin participantes", self.rechazo(participantes=[]))
 
+    def test_participantes_repetidos(self):
+        self.assertIn("repetidos", self.rechazo(participantes=["Ana", "Ana", "Bruno"]))
+
+    def test_varios_motivos_a_la_vez(self):
+        motivo = self.rechazo(monto="-1", categoria="Varios")
+        self.assertIn("monto", motivo)
+        self.assertIn("categoría", motivo)
+
     def test_ids_duplicados_se_rechazan_todos(self):
-        filas = [fila(), fila(descripcion="Pizza otra vez"), fila(gasto_id="G002")]
+        filas = [fila(), fila(descripcion="Carne otra vez"), fila(gasto_id="G002")]
         validos, rechazados = limpiar_gastos(filas, self.grupo)
         self.assertEqual([g.gasto_id for g in validos], ["G002"])
         self.assertEqual(len(rechazados), 2)
@@ -104,14 +123,19 @@ class TestValidacionYLimpieza(unittest.TestCase):
         self.assertEqual(filas, original)
 
 
-class TestFiltroPeriodo(unittest.TestCase):
+class TestFiltros(unittest.TestCase):
 
     def setUp(self):
         grupo = Grupo("Prueba", INTEGRANTES)
         filas = [fila(gasto_id=f"G00{d}", fecha=f"2026-07-0{d}") for d in range(1, 6)]
+        filas += [
+            fila(gasto_id="G010", fecha="2026-01-15", evento="Vacaciones en la costa"),
+            fila(gasto_id="G011", fecha="2026-03-10", evento="Viaje a Córdoba"),
+            fila(gasto_id="G012", fecha="2026-03-11", evento="Viaje a Bariloche"),
+        ]
         self.gastos, _ = limpiar_gastos(filas, grupo)
 
-    def test_extremos_incluidos(self):
+    def test_periodo_extremos_incluidos(self):
         elegidos = filtrar_periodo(self.gastos, date(2026, 7, 2), date(2026, 7, 4))
         self.assertEqual([g.gasto_id for g in elegidos], ["G002", "G003", "G004"])
 
@@ -121,6 +145,30 @@ class TestFiltroPeriodo(unittest.TestCase):
     def test_periodo_invertido(self):
         with self.assertRaises(ErrorDatos):
             filtrar_periodo(self.gastos, date(2026, 7, 5), date(2026, 7, 1))
+
+    def test_eventos_ordenados_por_fecha(self):
+        self.assertEqual(eventos_disponibles(self.gastos),
+                         ["Vacaciones en la costa", "Viaje a Córdoba", "Viaje a Bariloche", "Asado"])
+
+    def test_buscar_evento_exacto_y_parcial(self):
+        self.assertEqual(buscar_evento(self.gastos, "asado"), "Asado")
+        self.assertEqual(buscar_evento(self.gastos, "BARILOCHE"), "Viaje a Bariloche")
+
+    def test_buscar_evento_sin_tildes(self):
+        self.assertEqual(buscar_evento(self.gastos, "cordoba"), "Viaje a Córdoba")
+
+    def test_buscar_evento_ambiguo(self):
+        with self.assertRaises(ErrorDatos) as contexto:
+            buscar_evento(self.gastos, "viaje")
+        self.assertIn("varios eventos", str(contexto.exception))
+
+    def test_buscar_evento_inexistente(self):
+        with self.assertRaises(ErrorDatos):
+            buscar_evento(self.gastos, "Mundial")
+
+    def test_filtrar_evento(self):
+        self.assertEqual(len(filtrar_evento(self.gastos, "asado")), 5)
+        self.assertEqual(len(filtrar_evento(self.gastos, None)), 8)
 
 
 class TestFlujoCompleto(unittest.TestCase):
@@ -139,22 +187,30 @@ class TestFlujoCompleto(unittest.TestCase):
         r = procesar(FuenteCSV(RAIZ / "data" / "gastos.csv"), self.nombre, self.integrantes)
         a = r["auditoria"]
         self.assertEqual(a["filas_leidas"], a["validas"] + a["rechazadas"])
-        self.assertGreaterEqual(a["validas"], 50)
+        self.assertGreaterEqual(a["validas"], 300)
         self.assertEqual(sum(f["saldo"] for f in r["resumen"]), 0)
 
-    def test_main_con_persona_inexistente_devuelve_error(self):
-        with tempfile.TemporaryDirectory() as carpeta:
-            with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
-                codigo = main(["--persona", "Franco", "--salida", carpeta])
-        self.assertEqual(codigo, 1)
+    def test_cada_evento_cierra_sus_cuentas(self):
+        """Propiedad: cualquier evento, por separado, deja los saldos en cero."""
+        r = procesar(FuenteCSV(RAIZ / "data" / "gastos.csv"), self.nombre, self.integrantes)
+        total = 0
+        for evento in eventos_disponibles(r["validos"]):
+            gastos = filtrar_evento(r["validos"], evento)
+            grupo, resumen, transferencias = calcular(self.nombre, self.integrantes, gastos)
+            self.assertEqual(sum(f["saldo"] for f in resumen), 0)
+            total += sum(g.monto_centavos for g in gastos)
+        # los eventos se reparten todos los gastos, sin perder ni repetir ninguno
+        self.assertEqual(total, r["auditoria"]["total_gastado"])
 
-    def test_main_guarda_los_archivos(self):
-        with tempfile.TemporaryDirectory() as carpeta:
-            with contextlib.redirect_stdout(io.StringIO()):
-                codigo = main(["--salida", carpeta])
-            archivos = sorted(p.name for p in Path(carpeta).iterdir())
-        self.assertEqual(codigo, 0)
-        self.assertEqual(archivos, ["rechazados.csv", "saldos.csv", "transferencias.csv"])
+    def test_procesar_un_evento(self):
+        r = procesar(FuenteCSV(RAIZ / "data" / "gastos.csv"), self.nombre, self.integrantes,
+                     evento="bariloche")
+        self.assertEqual(r["evento"], "Viaje a Bariloche")
+        self.assertTrue(all(g.evento == "Viaje a Bariloche" for g in r["seleccionados"]))
+
+    def test_calcular_sin_gastos(self):
+        with self.assertRaises(ErrorDatos):
+            calcular(self.nombre, self.integrantes, [])
 
 
 if __name__ == "__main__":

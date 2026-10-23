@@ -6,6 +6,7 @@ cargados por una fuente (CSV o JSON). Solo guardar_resultados() escribe en disco
 
 import csv
 import re
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
@@ -16,6 +17,17 @@ from fuentes import COLUMNAS
 PATRON_ID = re.compile(r"G\d{3}")                    # G001, G002, ...
 PATRON_FECHA = re.compile(r"\d{4}-\d{2}-\d{2}")      # AAAA-MM-DD
 PATRON_MONTO = re.compile(r"\d+(\.\d{1,2})?")        # 1500 o 1500.5 o 1500.50
+
+# Categorías aceptadas: una lista cerrada permite agrupar y comparar sin ambigüedad.
+CATEGORIAS = (
+    "Alojamiento",
+    "Transporte",
+    "Supermercado",
+    "Comidas y bebidas",
+    "Actividades y entradas",
+    "Regalos",
+    "Otros",
+)
 
 
 class ErrorVerificacion(Exception):
@@ -74,6 +86,11 @@ def _motivos_de_rechazo(fila, grupo, ids_duplicados):
         motivos.append(str(error))
     if not fila["descripcion"].strip():
         motivos.append("descripción vacía")
+    if not fila["evento"].strip():
+        motivos.append("evento vacío")
+    categoria = fila["categoria"].strip()
+    if categoria not in CATEGORIAS:
+        motivos.append(f"categoría desconocida '{categoria}' (usar una de: {', '.join(CATEGORIAS)})")
     monto = fila["monto"].strip()
     if not PATRON_MONTO.fullmatch(monto):
         motivos.append(f"monto inválido '{monto}' (número positivo con punto decimal)")
@@ -123,6 +140,8 @@ def limpiar_gastos(filas, grupo):
                 pagador=fila["pagador"].strip(),
                 monto_centavos=pesos_a_centavos(fila["monto"].strip()),
                 participantes=tuple(fila["participantes"]),
+                evento=fila["evento"].strip(),
+                categoria=fila["categoria"].strip(),
             ))
     return validos, rechazados
 
@@ -137,6 +156,53 @@ def filtrar_periodo(gastos, desde=None, hasta=None):
         g for g in gastos
         if (desde is None or g.fecha >= desde) and (hasta is None or g.fecha <= hasta)
     ]
+
+
+def eventos_disponibles(gastos):
+    """Nombres de los eventos, ordenados por la fecha de su primer gasto."""
+    primero = {}
+    for g in gastos:
+        if g.evento not in primero or g.fecha < primero[g.evento]:
+            primero[g.evento] = g.fecha
+    return sorted(primero, key=lambda e: (primero[e], e))
+
+
+def normalizar(texto):
+    """'Córdoba ' -> 'cordoba': sin tildes, sin espacios de más y en minúsculas."""
+    sin_tildes = unicodedata.normalize("NFKD", texto)
+    sin_tildes = "".join(c for c in sin_tildes if not unicodedata.combining(c))
+    return sin_tildes.strip().lower()
+
+
+def buscar_evento(gastos, texto):
+    """Encuentra el evento que corresponde a lo que escribió la persona.
+
+    Acepta el nombre completo o una parte, sin importar mayúsculas ni tildes:
+    'bariloche' encuentra 'Viaje a Bariloche' y 'cordoba' encuentra
+    'Finde largo en Córdoba'. Si el texto coincide con ninguno o con varios
+    eventos, se informa con un error claro.
+    """
+    eventos = eventos_disponibles(gastos)
+    buscado = normalizar(texto)
+    exactos = [e for e in eventos if normalizar(e) == buscado]
+    if exactos:
+        return exactos[0]
+    parciales = [e for e in eventos if buscado and buscado in normalizar(e)]
+    if len(parciales) == 1:
+        return parciales[0]
+    if not parciales:
+        raise ErrorDatos(f"No hay ningún evento que coincida con '{texto}'. "
+                         f"Eventos: {', '.join(eventos)}")
+    raise ErrorDatos(f"'{texto}' coincide con varios eventos: {', '.join(parciales)}. "
+                     "Escribí una parte más específica del nombre.")
+
+
+def filtrar_evento(gastos, evento=None):
+    """Deja solo los gastos de un evento (None = todos)."""
+    if evento is None:
+        return list(gastos)
+    nombre = buscar_evento(gastos, evento)
+    return [g for g in gastos if g.evento == nombre]
 
 
 # ---------- 4. calcular ----------
@@ -170,6 +236,7 @@ def detalle_persona(grupo, persona):
             detalle.append({
                 "gasto_id": gasto.gasto_id,
                 "fecha": gasto.fecha.isoformat(),
+                "evento": gasto.evento,
                 "descripcion": gasto.descripcion,
                 "pago": puso,
                 "su_parte": cuota,
@@ -201,24 +268,42 @@ def verificar_resultado(grupo, transferencias):
 
 # ---------- flujo completo ----------
 
-def procesar(fuente, nombre_grupo, integrantes, desde=None, hasta=None):
-    """Ejecuta todo el flujo y devuelve un diccionario con los resultados."""
+def cargar_y_limpiar(fuente, nombre_grupo, integrantes):
+    """Lee, valida y limpia. Devuelve (filas leídas, gastos válidos, rechazados)."""
     filas = fuente.cargar()
     validar_esquema(filas)
     grupo = Grupo(nombre_grupo, integrantes)
     validos, rechazados = limpiar_gastos(filas, grupo)
     if not validos:
         raise ErrorDatos("Ningún gasto superó la validación; revisar los rechazados")
-    seleccionados = filtrar_periodo(validos, desde, hasta)
-    for gasto in seleccionados:
+    return filas, validos, rechazados
+
+
+def calcular(nombre_grupo, integrantes, gastos):
+    """Registra los gastos en un grupo nuevo, calcula y verifica el resultado."""
+    if not gastos:
+        raise ErrorDatos("No hay gastos para la selección pedida")
+    grupo = Grupo(nombre_grupo, integrantes)
+    for gasto in gastos:
         grupo.registrar(gasto)
     transferencias = grupo.transferencias()
     verificar_resultado(grupo, transferencias)
+    return grupo, calcular_resumen(grupo), transferencias
+
+
+def procesar(fuente, nombre_grupo, integrantes, desde=None, hasta=None, evento=None):
+    """Ejecuta todo el flujo y devuelve un diccionario con los resultados."""
+    filas, validos, rechazados = cargar_y_limpiar(fuente, nombre_grupo, integrantes)
+    seleccionados = filtrar_periodo(filtrar_evento(validos, evento), desde, hasta)
+    grupo, resumen, transferencias = calcular(nombre_grupo, integrantes, seleccionados)
     return {
         "grupo": grupo,
-        "resumen": calcular_resumen(grupo),
+        "resumen": resumen,
         "transferencias": transferencias,
         "rechazados": rechazados,
+        "validos": validos,
+        "seleccionados": seleccionados,
+        "evento": buscar_evento(validos, evento) if evento else None,
         "auditoria": {
             "filas_leidas": len(filas),
             "validas": len(validos),

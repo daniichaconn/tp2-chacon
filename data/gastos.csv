@@ -1,63 +1,319 @@
-gasto_id,fecha,descripcion,pagador,monto,participantes
-G001,2026-07-06,Alojamiento cabaña 7 noches,Ana,875000,Ana;Bruno;Carla;Diego;Elena
-G002,2026-07-06,Cervecería,Elena,55901.99,Bruno;Diego
-G003,2026-07-06,Remis,Carla,22381,Ana;Bruno;Carla;Diego;Elena
-G004,2026-07-06,Remis,Bruno,15508,Carla;Diego
-G005,2026-07-06,Cervecería,Ana,56533.25,Ana;Bruno;Carla;Diego
-G006,2026-07-06,Café y medialunas,Ana,17646,Bruno;Carla;Diego;Elena
-G007,2026-07-06,Cervecería,Diego,53184.25,Ana;Bruno;Carla;Diego;Elena
-G008,2026-07-06,Remis,Elena,12678,Ana;Bruno;Carla;Diego;Elena
-G009,2026-07-07,Alquiler de equipo de esquí,Diego,63666.5,Diego;Elena
-G010,2026-07-07,Almuerzo,Elena,46449.25,Diego;Elena
-G011,2026-07-07,Chocolates,Diego,14636,Bruno;Diego;Elena
-G012,2026-07-07,Café y medialunas,Elena,13507.25,Ana;Bruno
-G013,2026-07-07,Remis,Diego,17376.5,Bruno;Carla;Diego;Elena
-G014,2026-07-07,Chocolates,Diego,30588.99,Ana;Bruno;Carla;Diego;Elena
-G015,2026-07-07,Alquiler de equipo de esquí,Ana,79926.5,Bruno;Carla;Diego;Elena
-G016,2026-07-08,Nafta,Ana,69571.25,Ana;Bruno;Carla;Diego;Elena
-G017,2026-07-08,Alquiler de equipo de esquí,Bruno,60835.25,Bruno;Elena
-G018,2026-07-08,Supermercado,Bruno,60769,Ana;Bruno;Carla;Diego;Elena
-G019,2026-07-08,Remis,Diego,19953,Ana;Carla;Elena
-G020,2026-07-08,Cena,Diego,61852,Ana;Bruno;Carla;Diego;Elena
-G021,2026-07-08,Chocolates,Carla,29177,Ana
-G022,2026-07-08,Supermercado,Carla,84897,Ana;Bruno;Carla;Diego;Elena
-G023,2026-07-08,Remis,Elena,14511.5,Ana;Bruno;Carla;Diego;Elena
-G024,2026-07-08,Pase Cerro Catedral,Bruno,92723,Ana;Diego;Elena
-G025,2026-07-09,Remis,Elena,12583.25,Ana;Diego;Elena
-G026,2026-07-09,Cena,Diego,129862.5,Bruno;Diego;Elena
-G027,2026-07-09,Nafta,Diego,72610.5,Ana;Bruno;Carla;Diego;Elena
-G028,2026-07-09,Café y medialunas,Ana,14638.25,Ana;Bruno;Carla;Diego;Elena
-G029,2026-07-09,Café y medialunas,Ana,7525.5,Bruno;Elena
-G030,2026-07-09,Excursión Circuito Chico,Bruno,53049.25,Ana;Bruno;Diego;Elena
-G031,2026-07-09,Excursión Circuito Chico,Elena,49313.25,Ana;Bruno;Carla;Diego;Elena
-G032,2026-07-10,Excursión Circuito Chico,Bruno,36949.99,Ana;Bruno;Carla;Diego;Elena
-G033,2026-07-10,Supermercado,Elena,79879,Ana;Bruno;Carla;Diego;Elena
-G034,2026-07-10,Café y medialunas,Ana,12744,Ana;Bruno;Carla;Elena
-G035,2026-07-10,Chocolates,Ana,15707,Ana
-G036,2026-07-10,Café y medialunas,Carla,13471.25,Ana;Carla
-G037,2026-07-10,Excursión Circuito Chico,Elena,60321.5,Ana;Bruno;Carla;Diego;Elena
-G038,2026-07-10,Excursión Circuito Chico,Carla,83530,Bruno;Carla;Elena
-G039,2026-07-10,Supermercado,Ana,44460.5,Ana;Bruno;Carla;Diego;Elena
-G040,2026-07-10,Cervecería,Bruno,56756,Carla;Elena
-G041,2026-07-11,Cena,Elena,144920.99,Ana;Bruno;Carla;Diego;Elena
-G042,2026-07-11,Café y medialunas,Carla,12804.5,Bruno;Diego
-G043,2026-07-11,Chocolates,Bruno,14011.25,Bruno;Diego
-G044,2026-07-11,Supermercado,Carla,60464.5,Ana;Bruno;Carla;Diego;Elena
-G045,2026-07-11,Chocolates,Elena,10930,Bruno;Carla;Elena
-G046,2026-07-11,Alquiler de equipo de esquí,Carla,113216.99,Carla;Elena
-G047,2026-07-11,Cervecería,Diego,23820,Ana;Bruno
-G048,2026-07-12,Chocolates,Bruno,20279,Bruno;Carla;Elena
-G049,2026-07-12,Remis,Bruno,19289.5,Ana;Bruno;Carla;Diego;Elena
-G050,2026-07-12,Cena,Ana,143770,Ana;Bruno;Carla;Diego
-G051,2026-07-12,Nafta,Elena,54229.99,Ana;Bruno;Carla;Diego;Elena
-G052,2026-07-12,Pase Cerro Catedral,Elena,137711.99,Ana;Bruno;Carla;Elena
-G053,2026-07-12,Excursión Circuito Chico,Bruno,78010.5,Ana;Diego;Elena
-G054,2026-07-12,Cervecería,Bruno,39196,Ana;Carla;Diego;Elena
-G055,2026-07-12,Alquiler de equipo de esquí,Ana,107916.5,Ana;Bruno;Carla;Diego
-G011,2026-07-07,Chocolates (cargado dos veces),Diego,14636,Bruno;Diego;Elena
-G9,2026-07-08,Helado,Bruno,9000,Bruno;Carla
-G056,2026-06-31,Peaje,Diego,4500,Ana;Bruno;Carla;Diego;Elena
-G057,2026-07-09,Farmacia,Elena,"1.500,00",Elena
-G058,2026-07-10,Devolución,Carla,-2500,Ana;Carla
-G059,2026-07-11,Pizza,Franco,32000,Ana;Franco
-G060,2026-07-12,Propina,Ana,5000,
+gasto_id,fecha,evento,categoria,descripcion,pagador,monto,participantes
+G001,2026-01-12,Vacaciones en Mar del Plata,Alojamiento,Departamento 10 noches,Ana,1033750.25,Ana;Bruno;Carla;Diego;Elena
+G002,2026-01-12,Vacaciones en Mar del Plata,Transporte,Micro ida y vuelta,Elena,393452,Ana;Bruno;Carla;Diego;Elena
+G003,2026-01-12,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Ana,90252,Ana;Bruno;Carla;Diego;Elena
+G004,2026-01-12,Vacaciones en Mar del Plata,Supermercado,Verdulería,Carla,9444.5,Ana;Bruno;Diego;Elena
+G005,2026-01-12,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Carla,35876.25,Ana;Carla;Diego;Elena
+G006,2026-01-12,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Ana,58293,Ana;Bruno;Carla;Diego
+G007,2026-01-12,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Diego,14296.25,Ana;Bruno;Carla;Diego;Elena
+G008,2026-01-12,Vacaciones en Mar del Plata,Transporte,Remis,Elena,14357,Ana;Bruno;Carla;Diego;Elena
+G009,2026-01-12,Vacaciones en Mar del Plata,Supermercado,Supermercado,Diego,43666.5,Diego;Elena
+G010,2026-01-12,Vacaciones en Mar del Plata,Comidas y bebidas,Cena afuera,Elena,92899.25,Diego;Elena
+G011,2026-01-12,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Bruno,12823,Bruno;Carla;Diego;Elena
+G012,2026-01-12,Vacaciones en Mar del Plata,Supermercado,Supermercado,Elena,89162,Bruno;Diego
+G013,2026-01-13,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Carla,59992,Ana;Bruno;Carla;Diego;Elena
+G014,2026-01-13,Vacaciones en Mar del Plata,Transporte,Remis,Ana,15731.5,Bruno;Carla;Diego;Elena
+G015,2026-01-13,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Bruno,13362,Bruno;Diego
+G016,2026-01-13,Vacaciones en Mar del Plata,Supermercado,Verdulería,Elena,9257,Ana;Diego
+G017,2026-01-13,Vacaciones en Mar del Plata,Supermercado,Verdulería,Carla,8535,Carla;Elena
+G018,2026-01-13,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Ana,12844.99,Ana;Bruno;Carla;Diego;Elena
+G019,2026-01-13,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Diego,24792,Carla;Diego;Elena
+G020,2026-01-13,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Diego,37406,Ana;Diego;Elena
+G021,2026-01-14,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Carla,17186,Ana;Diego
+G022,2026-01-14,Vacaciones en Mar del Plata,Transporte,Remis,Bruno,24026,Ana;Bruno;Diego;Elena
+G023,2026-01-14,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Elena,14539,Ana;Bruno;Carla;Diego
+G024,2026-01-14,Vacaciones en Mar del Plata,Comidas y bebidas,Cena afuera,Bruno,123417.99,Ana;Bruno;Elena
+G025,2026-01-14,Vacaciones en Mar del Plata,Supermercado,Supermercado,Bruno,46022.99,Bruno;Carla;Elena
+G026,2026-01-14,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Diego,21991,Ana;Bruno;Carla;Diego;Elena
+G027,2026-01-14,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Diego,10713.5,Bruno;Carla;Diego
+G028,2026-01-14,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Elena,38103.25,Ana;Bruno;Diego;Elena
+G029,2026-01-14,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Ana,92499,Bruno;Elena
+G030,2026-01-15,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Carla,15207.99,Ana;Bruno;Carla;Diego;Elena
+G031,2026-01-15,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Elena,97904,Ana;Carla;Diego
+G032,2026-01-15,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Ana,101219,Ana;Carla;Diego;Elena
+G033,2026-01-15,Vacaciones en Mar del Plata,Supermercado,Verdulería,Bruno,16583.99,Ana;Bruno;Carla;Diego;Elena
+G034,2026-01-15,Vacaciones en Mar del Plata,Supermercado,Verdulería,Bruno,10273,Ana;Bruno;Carla;Elena
+G035,2026-01-15,Vacaciones en Mar del Plata,Supermercado,Verdulería,Diego,6252,Carla;Diego
+G036,2026-01-15,Vacaciones en Mar del Plata,Supermercado,Verdulería,Ana,17236.25,Ana;Carla;Elena
+G037,2026-01-15,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Diego,70713.25,Ana;Carla;Diego;Elena
+G038,2026-01-15,Vacaciones en Mar del Plata,Comidas y bebidas,Cena afuera,Diego,98257,Ana;Bruno;Carla;Diego;Elena
+G039,2026-01-16,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Carla,19913,Carla;Elena
+G040,2026-01-16,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Elena,33679.99,Ana;Bruno;Carla;Diego;Elena
+G041,2026-01-16,Vacaciones en Mar del Plata,Supermercado,Verdulería,Ana,8059.25,Ana;Diego;Elena
+G042,2026-01-16,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Carla,12804.5,Ana;Carla;Diego;Elena
+G043,2026-01-16,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Bruno,16895,Ana;Bruno;Diego
+G044,2026-01-16,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Carla,52732.5,Ana;Bruno;Carla;Diego;Elena
+G045,2026-01-16,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Bruno,17060,Ana;Bruno;Carla;Elena
+G046,2026-01-16,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Bruno,50418,Ana;Carla;Diego;Elena
+G047,2026-01-17,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Elena,44036,Ana;Carla;Diego
+G048,2026-01-17,Vacaciones en Mar del Plata,Comidas y bebidas,Cena afuera,Elena,166356.5,Bruno;Carla;Diego;Elena
+G049,2026-01-17,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Bruno,81775,Bruno;Carla;Diego;Elena
+G050,2026-01-17,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Elena,17976,Ana;Bruno;Carla;Diego;Elena
+G051,2026-01-17,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Elena,22050.25,Ana;Bruno
+G052,2026-01-17,Vacaciones en Mar del Plata,Supermercado,Supermercado,Bruno,76014,Ana;Bruno;Carla;Diego;Elena
+G053,2026-01-17,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Bruno,44598,Ana;Carla;Diego;Elena
+G054,2026-01-17,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Ana,54855.99,Ana;Bruno;Carla;Diego
+G055,2026-01-18,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Bruno,13155.25,Ana;Bruno;Carla;Elena
+G056,2026-01-18,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Ana,39587,Ana;Carla;Elena
+G057,2026-01-18,Vacaciones en Mar del Plata,Supermercado,Verdulería,Elena,15994,Ana;Bruno;Carla;Elena
+G058,2026-01-18,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Ana,39432.99,Carla;Diego
+G059,2026-01-18,Vacaciones en Mar del Plata,Supermercado,Verdulería,Diego,14171,Ana;Bruno;Carla;Diego;Elena
+G060,2026-01-18,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Carla,37704,Carla;Diego;Elena
+G061,2026-01-18,Vacaciones en Mar del Plata,Supermercado,Verdulería,Carla,13087.25,Ana;Bruno;Carla;Diego;Elena
+G062,2026-01-18,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Bruno,41438.5,Bruno;Carla;Diego;Elena
+G063,2026-01-18,Vacaciones en Mar del Plata,Comidas y bebidas,Cena afuera,Bruno,80234.5,Bruno;Carla;Diego;Elena
+G064,2026-01-19,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Ana,70973,Bruno;Carla;Diego
+G065,2026-01-19,Vacaciones en Mar del Plata,Transporte,Remis,Bruno,11038,Ana;Bruno;Carla;Elena
+G066,2026-01-19,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Carla,36226.99,Ana;Bruno;Carla;Diego;Elena
+G067,2026-01-19,Vacaciones en Mar del Plata,Transporte,Remis,Carla,8967.5,Carla;Diego;Elena
+G068,2026-01-19,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Bruno,22944.25,Carla;Elena
+G069,2026-01-19,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Bruno,91698,Ana;Bruno;Carla;Diego;Elena
+G070,2026-01-19,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Elena,71298,Ana;Bruno;Carla;Diego
+G071,2026-01-19,Vacaciones en Mar del Plata,Supermercado,Verdulería,Bruno,11406,Ana;Diego;Elena
+G072,2026-01-19,Vacaciones en Mar del Plata,Transporte,Remis,Carla,9761.25,Bruno;Carla;Elena
+G073,2026-01-19,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Diego,8728,Ana;Bruno;Elena
+G074,2026-01-20,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Carla,45414.25,Bruno;Carla;Diego
+G075,2026-01-20,Vacaciones en Mar del Plata,Transporte,Remis,Diego,11365,Ana;Bruno;Carla;Diego
+G076,2026-01-20,Vacaciones en Mar del Plata,Transporte,Remis,Carla,23786.99,Ana;Bruno;Carla;Diego
+G077,2026-01-20,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Elena,19174.25,Ana;Bruno;Diego;Elena
+G078,2026-01-20,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Carla,73290,Ana;Bruno;Carla;Diego;Elena
+G079,2026-01-20,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Elena,14528.5,Ana;Bruno;Diego
+G080,2026-01-20,Vacaciones en Mar del Plata,Supermercado,Verdulería,Bruno,13028.25,Ana;Diego;Elena
+G081,2026-01-20,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Diego,39479.25,Bruno;Diego;Elena
+G082,2026-01-20,Vacaciones en Mar del Plata,Comidas y bebidas,Café y medialunas,Bruno,8150.99,Ana;Bruno;Carla;Diego
+G083,2026-01-20,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Carla,103717,Ana;Carla
+G084,2026-01-21,Vacaciones en Mar del Plata,Comidas y bebidas,Almuerzo,Ana,79241,Ana;Bruno;Carla;Diego
+G085,2026-01-21,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Bruno,28861,Ana;Bruno;Carla;Diego;Elena
+G086,2026-01-21,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Bruno,45633,Diego;Elena
+G087,2026-01-21,Vacaciones en Mar del Plata,Actividades y entradas,Carpa en el balneario,Ana,38101,Ana;Diego
+G088,2026-01-21,Vacaciones en Mar del Plata,Actividades y entradas,Entradas al boliche,Ana,77711.99,Ana;Carla;Diego;Elena
+G089,2026-01-21,Vacaciones en Mar del Plata,Comidas y bebidas,Helado,Diego,11485,Ana;Bruno;Elena
+G090,2026-01-21,Vacaciones en Mar del Plata,Supermercado,Bebidas para la casa,Diego,30317.25,Ana;Bruno;Carla;Diego;Elena
+G091,2026-01-21,Vacaciones en Mar del Plata,Transporte,Remis,Ana,9582,Bruno;Elena
+G092,2026-02-14,Finde largo en Córdoba,Alojamiento,Cabaña en Villa Carlos Paz,Carla,335092,Ana;Carla;Diego;Facundo
+G093,2026-02-14,Finde largo en Córdoba,Transporte,Nafta ida y vuelta,Carla,138415,Ana;Carla;Diego;Facundo
+G094,2026-02-14,Finde largo en Córdoba,Supermercado,Supermercado,Diego,77206,Ana;Carla;Diego;Facundo
+G095,2026-02-14,Finde largo en Córdoba,Comidas y bebidas,Helado,Carla,9760,Ana;Carla;Diego;Facundo
+G096,2026-02-14,Finde largo en Córdoba,Transporte,Peaje,Facundo,7985.99,Carla;Diego
+G097,2026-02-14,Finde largo en Córdoba,Transporte,Peaje,Ana,6776.5,Carla;Diego
+G098,2026-02-14,Finde largo en Córdoba,Comidas y bebidas,Almuerzo,Ana,68679,Ana;Carla;Diego;Facundo
+G099,2026-02-14,Finde largo en Córdoba,Supermercado,Supermercado,Facundo,87735.25,Ana;Carla;Diego;Facundo
+G100,2026-02-14,Finde largo en Córdoba,Supermercado,Supermercado,Ana,38782.5,Ana;Diego
+G101,2026-02-14,Finde largo en Córdoba,Supermercado,Supermercado,Ana,34322.25,Ana;Diego
+G102,2026-02-15,Finde largo en Córdoba,Supermercado,Supermercado,Facundo,56720,Ana;Carla;Diego;Facundo
+G103,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Cervecería,Diego,52450,Ana;Carla;Facundo
+G104,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Helado,Carla,20595,Carla;Facundo
+G105,2026-02-15,Finde largo en Córdoba,Transporte,Peaje,Facundo,4790.5,Ana;Carla;Facundo
+G106,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Cervecería,Diego,40796.25,Ana;Facundo
+G107,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Almuerzo,Diego,69466.25,Ana;Diego;Facundo
+G108,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Cena afuera,Ana,132700,Ana;Carla;Diego;Facundo
+G109,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Helado,Facundo,8094,Ana;Carla;Facundo
+G110,2026-02-15,Finde largo en Córdoba,Comidas y bebidas,Cena afuera,Diego,109052,Ana;Diego
+G111,2026-02-16,Finde largo en Córdoba,Comidas y bebidas,Cena afuera,Ana,118641.25,Carla;Diego
+G112,2026-02-16,Finde largo en Córdoba,Comidas y bebidas,Cervecería,Facundo,58783.99,Diego;Facundo
+G113,2026-02-16,Finde largo en Córdoba,Supermercado,Supermercado,Diego,36939,Ana;Facundo
+G114,2026-02-16,Finde largo en Córdoba,Comidas y bebidas,Cervecería,Ana,43802.25,Ana;Diego
+G115,2026-02-16,Finde largo en Córdoba,Comidas y bebidas,Cervecería,Ana,70921.99,Carla;Facundo
+G116,2026-02-16,Finde largo en Córdoba,Transporte,Peaje,Ana,7437,Carla;Facundo
+G117,2026-02-16,Finde largo en Córdoba,Comidas y bebidas,Cena afuera,Ana,61983.5,Ana;Carla;Diego;Facundo
+G118,2026-02-16,Finde largo en Córdoba,Comidas y bebidas,Helado,Carla,10696.25,Ana;Carla;Diego;Facundo
+G119,2026-02-17,Finde largo en Córdoba,Transporte,Peaje,Facundo,3757,Ana;Carla;Facundo
+G120,2026-02-17,Finde largo en Córdoba,Comidas y bebidas,Almuerzo,Carla,83920.5,Carla;Diego
+G121,2026-02-17,Finde largo en Córdoba,Actividades y entradas,Excursión en aerosilla,Facundo,76052,Ana;Carla;Diego;Facundo
+G122,2026-02-17,Finde largo en Córdoba,Comidas y bebidas,Cena afuera,Facundo,142479.5,Ana;Facundo
+G123,2026-02-17,Finde largo en Córdoba,Comidas y bebidas,Cervecería,Ana,67617,Ana;Carla;Diego;Facundo
+G124,2026-02-17,Finde largo en Córdoba,Comidas y bebidas,Cena afuera,Diego,137943.99,Ana;Facundo
+G125,2026-02-17,Finde largo en Córdoba,Transporte,Peaje,Diego,4437.99,Ana;Carla;Diego;Facundo
+G126,2026-01-25,Asados del grupo,Supermercado,Carne para el asado,Ana,109800.25,Ana;Bruno;Carla;Diego;Elena
+G127,2026-01-25,Asados del grupo,Supermercado,Carbón y leña,Carla,8926,Ana;Bruno;Carla;Diego;Elena
+G128,2026-01-25,Asados del grupo,Supermercado,Bebidas,Ana,20130.25,Ana;Bruno;Carla;Diego;Elena
+G129,2026-01-25,Asados del grupo,Supermercado,Verdulería,Diego,10841,Ana;Bruno;Carla;Diego;Elena
+G130,2026-01-25,Asados del grupo,Comidas y bebidas,Helado,Elena,11726,Bruno;Carla;Diego;Elena
+G131,2026-02-27,Asados del grupo,Supermercado,Carne para el asado,Carla,86443.5,Ana;Bruno;Carla;Diego;Elena
+G132,2026-02-27,Asados del grupo,Supermercado,Carbón y leña,Elena,11362.5,Ana;Bruno;Carla;Diego;Elena
+G133,2026-02-27,Asados del grupo,Supermercado,Bebidas,Carla,30261,Ana;Bruno;Carla;Diego;Elena
+G134,2026-02-27,Asados del grupo,Supermercado,Verdulería,Bruno,9683.99,Ana;Bruno;Carla;Diego;Elena
+G135,2026-02-27,Asados del grupo,Comidas y bebidas,Helado,Diego,17855,Ana;Bruno;Carla;Diego;Elena
+G136,2026-03-25,Asados del grupo,Supermercado,Carne para el asado,Ana,87278,Ana;Bruno;Carla;Diego;Elena;Facundo
+G137,2026-03-25,Asados del grupo,Supermercado,Carbón y leña,Carla,9987,Ana;Bruno;Carla;Diego;Elena;Facundo
+G138,2026-03-25,Asados del grupo,Supermercado,Bebidas,Facundo,29896,Ana;Bruno;Carla;Diego;Elena;Facundo
+G139,2026-03-25,Asados del grupo,Supermercado,Verdulería,Carla,16426.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G140,2026-03-25,Asados del grupo,Comidas y bebidas,Helado,Facundo,16418,Bruno;Elena;Facundo
+G141,2026-04-25,Asados del grupo,Supermercado,Carne para el asado,Bruno,119233.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G142,2026-04-25,Asados del grupo,Supermercado,Carbón y leña,Elena,9806,Ana;Bruno;Carla;Diego;Elena;Facundo
+G143,2026-04-25,Asados del grupo,Supermercado,Bebidas,Facundo,37225.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G144,2026-04-25,Asados del grupo,Supermercado,Verdulería,Ana,6477,Ana;Bruno;Carla;Diego;Elena;Facundo
+G145,2026-04-25,Asados del grupo,Comidas y bebidas,Helado,Facundo,15747,Ana;Bruno;Diego;Facundo
+G146,2026-05-25,Asados del grupo,Supermercado,Carne para el asado,Elena,77662,Ana;Bruno;Carla;Diego;Elena
+G147,2026-05-25,Asados del grupo,Supermercado,Carbón y leña,Ana,9008.5,Ana;Bruno;Carla;Diego;Elena
+G148,2026-05-25,Asados del grupo,Supermercado,Bebidas,Diego,31370.99,Ana;Bruno;Carla;Diego;Elena
+G149,2026-05-25,Asados del grupo,Supermercado,Verdulería,Elena,7086,Ana;Bruno;Carla;Diego;Elena
+G150,2026-05-25,Asados del grupo,Comidas y bebidas,Helado,Elena,21545,Ana;Bruno;Carla;Diego;Elena
+G151,2026-06-25,Asados del grupo,Supermercado,Carne para el asado,Carla,79790.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G152,2026-06-25,Asados del grupo,Supermercado,Carbón y leña,Ana,15786,Ana;Bruno;Carla;Diego;Elena;Facundo
+G153,2026-06-25,Asados del grupo,Supermercado,Bebidas,Elena,33880,Ana;Bruno;Carla;Diego;Elena;Facundo
+G154,2026-06-25,Asados del grupo,Supermercado,Verdulería,Diego,13353.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G155,2026-06-25,Asados del grupo,Comidas y bebidas,Helado,Ana,18490,Ana;Carla;Diego;Elena;Facundo
+G156,2026-07-25,Asados del grupo,Supermercado,Carne para el asado,Bruno,81068,Ana;Bruno;Diego;Elena;Facundo
+G157,2026-07-25,Asados del grupo,Supermercado,Carbón y leña,Elena,12935.25,Ana;Bruno;Diego;Elena;Facundo
+G158,2026-07-25,Asados del grupo,Supermercado,Bebidas,Bruno,28458.5,Ana;Bruno;Diego;Elena;Facundo
+G159,2026-07-25,Asados del grupo,Supermercado,Verdulería,Ana,16122,Ana;Bruno;Diego;Elena;Facundo
+G160,2026-07-25,Asados del grupo,Comidas y bebidas,Helado,Ana,14865,Ana;Bruno;Diego;Facundo
+G161,2026-08-25,Asados del grupo,Supermercado,Carne para el asado,Diego,89014.5,Carla;Diego;Elena;Facundo
+G162,2026-08-25,Asados del grupo,Supermercado,Carbón y leña,Carla,9703.99,Carla;Diego;Elena;Facundo
+G163,2026-08-25,Asados del grupo,Supermercado,Bebidas,Diego,25340,Carla;Diego;Elena;Facundo
+G164,2026-08-25,Asados del grupo,Supermercado,Verdulería,Elena,9245.25,Carla;Diego;Elena;Facundo
+G165,2026-08-25,Asados del grupo,Comidas y bebidas,Helado,Diego,18599.5,Carla;Diego;Elena;Facundo
+G166,2026-09-25,Asados del grupo,Supermercado,Carne para el asado,Carla,119523.99,Ana;Bruno;Carla;Diego;Elena;Facundo
+G167,2026-09-25,Asados del grupo,Supermercado,Carbón y leña,Carla,12787,Ana;Bruno;Carla;Diego;Elena;Facundo
+G168,2026-09-25,Asados del grupo,Supermercado,Bebidas,Ana,32366,Ana;Bruno;Carla;Diego;Elena;Facundo
+G169,2026-09-25,Asados del grupo,Supermercado,Verdulería,Facundo,12772.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G170,2026-09-25,Asados del grupo,Comidas y bebidas,Helado,Ana,16924,Ana;Diego;Facundo
+G171,2026-10-25,Asados del grupo,Supermercado,Carne para el asado,Facundo,129931.99,Bruno;Carla;Diego;Facundo
+G172,2026-10-25,Asados del grupo,Supermercado,Carbón y leña,Facundo,8018,Bruno;Carla;Diego;Facundo
+G173,2026-10-25,Asados del grupo,Supermercado,Bebidas,Diego,21889,Bruno;Carla;Diego;Facundo
+G174,2026-10-25,Asados del grupo,Supermercado,Verdulería,Carla,17073.25,Bruno;Carla;Diego;Facundo
+G175,2026-10-25,Asados del grupo,Comidas y bebidas,Helado,Bruno,11758,Bruno;Carla;Facundo
+G176,2026-04-16,Cumpleaños de Bruno,Regalos,Regalo para Bruno,Ana,119495,Ana;Carla;Diego;Elena;Facundo
+G177,2026-04-18,Cumpleaños de Bruno,Comidas y bebidas,Torta,Bruno,39444.25,Ana;Diego;Elena
+G178,2026-04-18,Cumpleaños de Bruno,Supermercado,Picada,Elena,52164.5,Carla;Diego;Facundo
+G179,2026-04-18,Cumpleaños de Bruno,Supermercado,Bebidas para la casa,Carla,32957.25,Ana;Carla;Diego;Facundo
+G180,2026-04-18,Cumpleaños de Bruno,Otros,Hielo y descartables,Diego,12759.5,Ana;Diego;Elena;Facundo
+G181,2026-04-18,Cumpleaños de Bruno,Actividades y entradas,Entradas al boliche,Diego,62562,Ana;Bruno;Carla;Diego;Elena;Facundo
+G182,2026-04-18,Cumpleaños de Bruno,Transporte,Remis,Facundo,16670,Ana;Bruno;Carla;Diego;Elena;Facundo
+G183,2026-04-18,Cumpleaños de Bruno,Comidas y bebidas,Pizzas de madrugada,Ana,31777.5,Bruno;Diego;Elena
+G184,2026-04-19,Cumpleaños de Bruno,Comidas y bebidas,Café y medialunas,Elena,16977,Ana;Carla
+G185,2026-08-20,Cumpleaños de Elena,Regalos,Regalo para Elena,Carla,96205,Ana;Bruno;Carla;Diego;Facundo
+G186,2026-08-22,Cumpleaños de Elena,Comidas y bebidas,Torta,Elena,43424,Ana;Bruno;Carla;Facundo
+G187,2026-08-22,Cumpleaños de Elena,Supermercado,Picada,Elena,41394,Bruno;Diego;Facundo
+G188,2026-08-22,Cumpleaños de Elena,Supermercado,Bebidas para la casa,Ana,24790,Bruno;Carla;Diego;Facundo
+G189,2026-08-22,Cumpleaños de Elena,Otros,Hielo y descartables,Ana,8216.25,Ana;Bruno;Carla;Diego;Elena;Facundo
+G190,2026-08-22,Cumpleaños de Elena,Actividades y entradas,Entradas al boliche,Diego,91624,Ana;Bruno;Carla;Elena;Facundo
+G191,2026-08-22,Cumpleaños de Elena,Transporte,Remis,Bruno,17057,Ana;Bruno;Carla;Diego;Facundo
+G192,2026-08-22,Cumpleaños de Elena,Comidas y bebidas,Pizzas de madrugada,Carla,29785,Ana;Bruno;Carla;Diego;Facundo
+G193,2026-08-23,Cumpleaños de Elena,Comidas y bebidas,Café y medialunas,Diego,7475,Ana;Carla
+G194,2026-06-16,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Carla,35955.25,Ana;Bruno;Carla;Diego;Elena;Facundo
+G195,2026-06-16,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Bruno,40491.99,Ana;Bruno;Carla;Diego;Elena;Facundo
+G196,2026-06-16,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Facundo,37006,Ana;Bruno;Carla;Diego;Elena;Facundo
+G197,2026-06-16,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Carla,8428.99,Carla;Diego
+G198,2026-06-22,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Carla,32391.99,Ana;Bruno;Carla;Diego;Elena;Facundo
+G199,2026-06-22,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Ana,37285.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G200,2026-06-22,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Bruno,36606.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G201,2026-06-22,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Ana,11248.5,Ana;Carla;Elena;Facundo
+G202,2026-06-27,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Bruno,40072,Bruno;Carla;Diego;Elena;Facundo
+G203,2026-06-27,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Facundo,21406,Bruno;Carla;Diego;Elena;Facundo
+G204,2026-06-27,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Bruno,36930.5,Bruno;Carla;Diego;Elena;Facundo
+G205,2026-06-27,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Bruno,13781,Bruno;Carla;Diego;Elena;Facundo
+G206,2026-07-03,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Elena,33971.5,Ana;Bruno;Carla;Diego;Elena;Facundo
+G207,2026-07-03,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Carla,33029,Ana;Bruno;Carla;Diego;Elena;Facundo
+G208,2026-07-03,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Bruno,13793,Ana;Bruno;Carla;Diego;Elena;Facundo
+G209,2026-07-03,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Ana,9073,Ana;Carla
+G210,2026-07-09,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Carla,31580,Ana;Carla;Diego;Elena
+G211,2026-07-09,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Diego,30216.25,Ana;Carla;Diego;Elena
+G212,2026-07-09,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Carla,39969,Ana;Carla;Diego;Elena
+G213,2026-07-09,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Ana,10912,Ana;Elena
+G214,2026-07-14,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Bruno,25112,Ana;Bruno;Diego;Facundo
+G215,2026-07-14,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Ana,34118.5,Ana;Bruno;Diego;Facundo
+G216,2026-07-14,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Ana,14677,Ana;Bruno;Diego;Facundo
+G217,2026-07-14,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Bruno,14357.25,Ana;Diego;Facundo
+G218,2026-07-19,Mundial 2026: partidos de Argentina,Comidas y bebidas,Pizzas,Bruno,27012,Ana;Bruno;Carla;Diego;Elena
+G219,2026-07-19,Mundial 2026: partidos de Argentina,Comidas y bebidas,Empanadas,Ana,39134.25,Ana;Bruno;Carla;Diego;Elena
+G220,2026-07-19,Mundial 2026: partidos de Argentina,Supermercado,Bebidas para la casa,Carla,22290,Ana;Bruno;Carla;Diego;Elena
+G221,2026-07-19,Mundial 2026: partidos de Argentina,Comidas y bebidas,Facturas para el partido,Carla,8789.5,Ana;Bruno;Diego;Elena
+G222,2026-07-27,Viaje a Bariloche,Alojamiento,Cabaña 7 noches,Diego,904382.25,Ana;Bruno;Carla;Diego;Elena
+G223,2026-07-27,Viaje a Bariloche,Transporte,Pasajes de avión,Bruno,982985.25,Ana;Bruno;Carla;Diego;Elena
+G224,2026-07-27,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Ana,13457.99,Ana;Bruno;Diego;Elena
+G225,2026-07-27,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Diego,55923,Ana;Carla;Diego
+G226,2026-07-27,Viaje a Bariloche,Actividades y entradas,Alquiler de equipo de esquí,Elena,67784,Ana;Carla;Elena
+G227,2026-07-27,Viaje a Bariloche,Actividades y entradas,Alquiler de equipo de esquí,Bruno,48540.99,Bruno;Carla;Elena
+G228,2026-07-27,Viaje a Bariloche,Comidas y bebidas,Cervecería,Bruno,55610.99,Bruno;Carla;Diego
+G229,2026-07-27,Viaje a Bariloche,Supermercado,Supermercado,Elena,93277.25,Ana;Carla;Diego;Elena
+G230,2026-07-27,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Diego,89639.25,Ana;Bruno;Carla;Diego;Elena
+G231,2026-07-27,Viaje a Bariloche,Supermercado,Supermercado,Bruno,69947,Bruno;Elena
+G232,2026-07-27,Viaje a Bariloche,Otros,Farmacia,Elena,18505,Bruno;Carla;Diego;Elena
+G233,2026-07-27,Viaje a Bariloche,Comidas y bebidas,Chocolates,Bruno,11074,Ana;Bruno;Carla;Diego;Elena
+G234,2026-07-28,Viaje a Bariloche,Transporte,Remis,Bruno,13988.25,Ana;Bruno;Carla;Diego;Elena
+G235,2026-07-28,Viaje a Bariloche,Otros,Farmacia,Bruno,13039,Ana;Bruno;Carla;Diego;Elena
+G236,2026-07-28,Viaje a Bariloche,Otros,Farmacia,Carla,6952,Ana;Carla;Diego;Elena
+G237,2026-07-28,Viaje a Bariloche,Supermercado,Supermercado,Ana,47157,Ana;Bruno;Carla;Diego;Elena
+G238,2026-07-28,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Carla,15074,Ana;Bruno;Carla
+G239,2026-07-28,Viaje a Bariloche,Supermercado,Supermercado,Bruno,39196.5,Ana;Bruno;Carla;Diego;Elena
+G240,2026-07-28,Viaje a Bariloche,Comidas y bebidas,Cena afuera,Bruno,83193,Ana;Bruno
+G241,2026-07-28,Viaje a Bariloche,Supermercado,Supermercado,Ana,73218.99,Ana;Carla;Elena
+G242,2026-07-28,Viaje a Bariloche,Comidas y bebidas,Cena afuera,Elena,145422,Bruno;Carla
+G243,2026-07-28,Viaje a Bariloche,Comidas y bebidas,Cena afuera,Ana,129297,Ana;Carla;Elena
+G244,2026-07-28,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Bruno,9027,Ana;Bruno;Carla;Diego;Elena
+G245,2026-07-29,Viaje a Bariloche,Actividades y entradas,Alquiler de equipo de esquí,Diego,51041,Ana;Bruno;Carla;Diego;Elena
+G246,2026-07-29,Viaje a Bariloche,Supermercado,Supermercado,Elena,67601,Bruno;Carla;Diego;Elena
+G247,2026-07-29,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Diego,47625,Bruno;Carla;Diego
+G248,2026-07-29,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Carla,77969.99,Bruno;Diego;Elena
+G249,2026-07-29,Viaje a Bariloche,Comidas y bebidas,Chocolates,Bruno,28092,Ana;Bruno;Carla;Diego;Elena
+G250,2026-07-29,Viaje a Bariloche,Otros,Farmacia,Ana,9663.25,Carla;Elena
+G251,2026-07-29,Viaje a Bariloche,Otros,Farmacia,Ana,10533.5,Ana;Bruno;Carla;Diego
+G252,2026-07-29,Viaje a Bariloche,Comidas y bebidas,Cervecería,Diego,69111.25,Bruno;Carla;Elena
+G253,2026-07-29,Viaje a Bariloche,Comidas y bebidas,Almuerzo,Elena,79595.25,Ana;Bruno;Carla;Diego;Elena
+G254,2026-07-30,Viaje a Bariloche,Comidas y bebidas,Cervecería,Ana,40994.5,Bruno;Carla;Diego;Elena
+G255,2026-07-30,Viaje a Bariloche,Comidas y bebidas,Almuerzo,Elena,46001,Carla;Diego
+G256,2026-07-30,Viaje a Bariloche,Otros,Farmacia,Carla,6307.5,Ana;Bruno;Carla;Diego;Elena
+G257,2026-07-30,Viaje a Bariloche,Comidas y bebidas,Cervecería,Ana,68346,Bruno;Diego
+G258,2026-07-30,Viaje a Bariloche,Actividades y entradas,Pase Cerro Catedral,Elena,113546,Ana;Bruno;Carla;Diego;Elena
+G259,2026-07-30,Viaje a Bariloche,Actividades y entradas,Pase Cerro Catedral,Diego,72935,Ana;Bruno;Carla;Diego;Elena
+G260,2026-07-30,Viaje a Bariloche,Comidas y bebidas,Almuerzo,Ana,91752,Ana;Bruno;Elena
+G261,2026-07-30,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Bruno,62654.25,Ana;Bruno;Carla;Diego;Elena
+G262,2026-07-30,Viaje a Bariloche,Comidas y bebidas,Almuerzo,Carla,86016,Bruno;Diego
+G263,2026-07-30,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Carla,12963.5,Diego;Elena
+G264,2026-07-31,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Diego,13200.5,Ana;Bruno;Elena
+G265,2026-07-31,Viaje a Bariloche,Actividades y entradas,Pase Cerro Catedral,Carla,98291,Ana;Carla;Elena
+G266,2026-07-31,Viaje a Bariloche,Comidas y bebidas,Cervecería,Bruno,29135.25,Ana;Bruno;Carla;Diego;Elena
+G267,2026-07-31,Viaje a Bariloche,Actividades y entradas,Pase Cerro Catedral,Bruno,79541,Bruno;Elena
+G268,2026-07-31,Viaje a Bariloche,Otros,Farmacia,Diego,18685,Ana;Bruno;Carla;Diego;Elena
+G269,2026-07-31,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Carla,14009,Ana;Bruno;Carla
+G270,2026-07-31,Viaje a Bariloche,Transporte,Remis,Bruno,12931,Bruno;Carla
+G271,2026-07-31,Viaje a Bariloche,Comidas y bebidas,Chocolates,Diego,26646.25,Bruno;Carla;Diego;Elena
+G272,2026-07-31,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Carla,11345,Ana;Bruno;Carla;Diego;Elena
+G273,2026-07-31,Viaje a Bariloche,Otros,Farmacia,Carla,5062,Carla;Diego
+G274,2026-08-01,Viaje a Bariloche,Comidas y bebidas,Cervecería,Elena,53189,Ana;Bruno;Carla;Elena
+G275,2026-08-01,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Carla,76679.25,Ana;Bruno;Carla;Diego
+G276,2026-08-01,Viaje a Bariloche,Transporte,Remis,Ana,10653,Ana;Carla
+G277,2026-08-01,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Ana,10224.99,Carla;Diego
+G278,2026-08-01,Viaje a Bariloche,Supermercado,Supermercado,Carla,80172,Ana;Carla;Diego
+G279,2026-08-01,Viaje a Bariloche,Supermercado,Supermercado,Elena,69219.99,Ana;Elena
+G280,2026-08-01,Viaje a Bariloche,Comidas y bebidas,Cervecería,Ana,48252.5,Ana;Bruno;Carla;Diego
+G281,2026-08-01,Viaje a Bariloche,Transporte,Remis,Ana,12628,Ana;Bruno;Elena
+G282,2026-08-01,Viaje a Bariloche,Comidas y bebidas,Cervecería,Ana,61050.99,Bruno;Elena
+G283,2026-08-02,Viaje a Bariloche,Actividades y entradas,Pase Cerro Catedral,Bruno,79921,Carla;Elena
+G284,2026-08-02,Viaje a Bariloche,Comidas y bebidas,Almuerzo,Diego,72320.25,Ana;Bruno;Diego
+G285,2026-08-02,Viaje a Bariloche,Comidas y bebidas,Chocolates,Carla,12625,Ana;Bruno;Carla;Diego
+G286,2026-08-02,Viaje a Bariloche,Comidas y bebidas,Chocolates,Elena,24431,Ana;Bruno;Carla;Elena
+G287,2026-08-02,Viaje a Bariloche,Otros,Farmacia,Carla,7969.25,Ana;Bruno;Carla;Elena
+G288,2026-08-02,Viaje a Bariloche,Comidas y bebidas,Cervecería,Bruno,42150,Ana;Bruno;Carla;Diego
+G289,2026-08-02,Viaje a Bariloche,Actividades y entradas,Excursión Circuito Chico,Diego,81902,Ana;Bruno;Diego;Elena
+G290,2026-08-02,Viaje a Bariloche,Supermercado,Supermercado,Elena,40809.99,Ana;Bruno;Carla;Diego;Elena
+G291,2026-08-02,Viaje a Bariloche,Comidas y bebidas,Cervecería,Elena,30345,Ana;Bruno;Elena
+G292,2026-08-02,Viaje a Bariloche,Comidas y bebidas,Café y medialunas,Diego,13391.5,Carla;Diego
+G293,2026-08-02,Viaje a Bariloche,Otros,Farmacia,Elena,6184.25,Carla;Diego;Elena
+G294,2026-09-26,Recital en Buenos Aires,Alojamiento,Hostel 1 noche,Bruno,70102.99,Bruno;Elena;Facundo
+G295,2026-09-26,Recital en Buenos Aires,Transporte,Micro Rosario - Buenos Aires,Facundo,167802,Bruno;Elena;Facundo
+G296,2026-09-26,Recital en Buenos Aires,Comidas y bebidas,Cena afuera,Bruno,169098.5,Elena;Facundo
+G297,2026-09-26,Recital en Buenos Aires,Transporte,Remis,Bruno,18836,Bruno;Elena;Facundo
+G298,2026-09-26,Recital en Buenos Aires,Otros,Merchandising,Facundo,39629,Bruno;Facundo
+G299,2026-09-26,Recital en Buenos Aires,Otros,Merchandising,Bruno,47606,Bruno;Elena;Facundo
+G300,2026-09-26,Recital en Buenos Aires,Otros,Merchandising,Bruno,25416,Bruno;Elena;Facundo
+G301,2026-09-27,Recital en Buenos Aires,Transporte,Remis,Facundo,7724,Elena;Facundo
+G302,2026-09-27,Recital en Buenos Aires,Transporte,Remis,Elena,19412.25,Bruno;Elena;Facundo
+G303,2026-09-27,Recital en Buenos Aires,Otros,Merchandising,Elena,44460.5,Bruno;Elena;Facundo
+G304,2026-09-27,Recital en Buenos Aires,Transporte,Remis,Elena,7376.99,Bruno;Elena;Facundo
+G305,2026-09-27,Recital en Buenos Aires,Transporte,Remis,Elena,8928.25,Bruno;Elena;Facundo
+G306,2026-09-26,Recital en Buenos Aires,Actividades y entradas,Entradas al recital,Facundo,285000,Bruno;Elena;Facundo
+G041,2026-01-16,Vacaciones en Mar del Plata,Supermercado,Verdulería (cargado dos veces),Ana,8059.25,Ana;Diego;Elena
+G12,2026-05-25,Asados del grupo,Supermercado,Helado,Ana,10000,Ana;Bruno
+G308,2026-02-30,Asados del grupo,Supermercado,Peaje,Ana,10000,Ana;Bruno
+G309,15/03/2026,Asados del grupo,Supermercado,Fernet,Ana,10000,Ana;Bruno
+G310,2026-05-25,Asados del grupo,Supermercado,Farmacia,Ana,"1.500,00",Ana;Bruno
+G311,2026-05-25,Asados del grupo,Supermercado,Devolución,Ana,-2500,Ana;Bruno
+G312,2026-05-25,Asados del grupo,Supermercado,Propina,Ana,0,Ana;Bruno
+G313,2026-05-25,Asados del grupo,Supermercado,Pizza,Mateo,10000,Ana;Mateo
+G314,2026-05-25,Asados del grupo,Supermercado,Hielo,Ana,10000,
+G315,2026-05-25,Asados del grupo,Supermercado,Bebidas,Ana,10000,Ana;Ana;Bruno
+G316,2026-05-25,Asados del grupo,Varios,Cosas sueltas,Ana,10000,Ana;Bruno
+G317,2026-05-25,,Transporte,Taxi sin evento,Ana,10000,Ana;Bruno

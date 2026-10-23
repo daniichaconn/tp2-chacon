@@ -1,10 +1,12 @@
 [
   {
     "gasto_id": "G001",
-    "fecha": "2026-07-06",
-    "descripcion": "Alojamiento cabaña 7 noches",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Alojamiento",
+    "descripcion": "Departamento 10 noches",
     "pagador": "Ana",
-    "monto": 875000,
+    "monto": 1033750.25,
     "participantes": [
       "Ana",
       "Bruno",
@@ -15,21 +17,28 @@
   },
   {
     "gasto_id": "G002",
-    "fecha": "2026-07-06",
-    "descripcion": "Cervecería",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Micro ida y vuelta",
     "pagador": "Elena",
-    "monto": 55901.99,
+    "monto": 393452,
     "participantes": [
+      "Ana",
       "Bruno",
-      "Diego"
+      "Carla",
+      "Diego",
+      "Elena"
     ]
   },
   {
     "gasto_id": "G003",
-    "fecha": "2026-07-06",
-    "descripcion": "Remis",
-    "pagador": "Carla",
-    "monto": 22381,
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Ana",
+    "monto": 90252,
     "participantes": [
       "Ana",
       "Bruno",
@@ -40,21 +49,42 @@
   },
   {
     "gasto_id": "G004",
-    "fecha": "2026-07-06",
-    "descripcion": "Remis",
-    "pagador": "Bruno",
-    "monto": 15508,
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Carla",
+    "monto": 9444.5,
     "participantes": [
-      "Carla",
-      "Diego"
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena"
     ]
   },
   {
     "gasto_id": "G005",
-    "fecha": "2026-07-06",
-    "descripcion": "Cervecería",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Carla",
+    "monto": 35876.25,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G006",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
     "pagador": "Ana",
-    "monto": 56533.25,
+    "monto": 58293,
     "participantes": [
       "Ana",
       "Bruno",
@@ -63,24 +93,13 @@
     ]
   },
   {
-    "gasto_id": "G006",
-    "fecha": "2026-07-06",
-    "descripcion": "Café y medialunas",
-    "pagador": "Ana",
-    "monto": 17646,
-    "participantes": [
-      "Bruno",
-      "Carla",
-      "Diego",
-      "Elena"
-    ]
-  },
-  {
     "gasto_id": "G007",
-    "fecha": "2026-07-06",
-    "descripcion": "Cervecería",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
     "pagador": "Diego",
-    "monto": 53184.25,
+    "monto": 14296.25,
     "participantes": [
       "Ana",
       "Bruno",
@@ -91,10 +110,12 @@
   },
   {
     "gasto_id": "G008",
-    "fecha": "2026-07-06",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
     "descripcion": "Remis",
     "pagador": "Elena",
-    "monto": 12678,
+    "monto": 14357,
     "participantes": [
       "Ana",
       "Bruno",
@@ -105,10 +126,12 @@
   },
   {
     "gasto_id": "G009",
-    "fecha": "2026-07-07",
-    "descripcion": "Alquiler de equipo de esquí",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
     "pagador": "Diego",
-    "monto": 63666.5,
+    "monto": 43666.5,
     "participantes": [
       "Diego",
       "Elena"
@@ -116,10 +139,12 @@
   },
   {
     "gasto_id": "G010",
-    "fecha": "2026-07-07",
-    "descripcion": "Almuerzo",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
     "pagador": "Elena",
-    "monto": 46449.25,
+    "monto": 92899.25,
     "participantes": [
       "Diego",
       "Elena"
@@ -127,34 +152,42 @@
   },
   {
     "gasto_id": "G011",
-    "fecha": "2026-07-07",
-    "descripcion": "Chocolates",
-    "pagador": "Diego",
-    "monto": 14636,
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Bruno",
+    "monto": 12823,
     "participantes": [
       "Bruno",
+      "Carla",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G012",
-    "fecha": "2026-07-07",
-    "descripcion": "Café y medialunas",
+    "fecha": "2026-01-12",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
     "pagador": "Elena",
-    "monto": 13507.25,
+    "monto": 89162,
     "participantes": [
-      "Ana",
-      "Bruno"
+      "Bruno",
+      "Diego"
     ]
   },
   {
     "gasto_id": "G013",
-    "fecha": "2026-07-07",
-    "descripcion": "Remis",
-    "pagador": "Diego",
-    "monto": 17376.5,
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Carla",
+    "monto": 59992,
     "participantes": [
+      "Ana",
       "Bruno",
       "Carla",
       "Diego",
@@ -163,12 +196,13 @@
   },
   {
     "gasto_id": "G014",
-    "fecha": "2026-07-07",
-    "descripcion": "Chocolates",
-    "pagador": "Diego",
-    "monto": 30588.99,
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Ana",
+    "monto": 15731.5,
     "participantes": [
-      "Ana",
       "Bruno",
       "Carla",
       "Diego",
@@ -177,48 +211,51 @@
   },
   {
     "gasto_id": "G015",
-    "fecha": "2026-07-07",
-    "descripcion": "Alquiler de equipo de esquí",
-    "pagador": "Ana",
-    "monto": 79926.5,
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Bruno",
+    "monto": 13362,
     "participantes": [
       "Bruno",
-      "Carla",
-      "Diego",
-      "Elena"
+      "Diego"
     ]
   },
   {
     "gasto_id": "G016",
-    "fecha": "2026-07-08",
-    "descripcion": "Nafta",
-    "pagador": "Ana",
-    "monto": 69571.25,
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Elena",
+    "monto": 9257,
     "participantes": [
       "Ana",
-      "Bruno",
-      "Carla",
-      "Diego",
-      "Elena"
+      "Diego"
     ]
   },
   {
     "gasto_id": "G017",
-    "fecha": "2026-07-08",
-    "descripcion": "Alquiler de equipo de esquí",
-    "pagador": "Bruno",
-    "monto": 60835.25,
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Carla",
+    "monto": 8535,
     "participantes": [
-      "Bruno",
+      "Carla",
       "Elena"
     ]
   },
   {
     "gasto_id": "G018",
-    "fecha": "2026-07-08",
-    "descripcion": "Supermercado",
-    "pagador": "Bruno",
-    "monto": 60769,
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 12844.99,
     "participantes": [
       "Ana",
       "Bruno",
@@ -229,138 +266,156 @@
   },
   {
     "gasto_id": "G019",
-    "fecha": "2026-07-08",
-    "descripcion": "Remis",
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
     "pagador": "Diego",
-    "monto": 19953,
+    "monto": 24792,
     "participantes": [
-      "Ana",
       "Carla",
+      "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G020",
-    "fecha": "2026-07-08",
-    "descripcion": "Cena",
+    "fecha": "2026-01-13",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
     "pagador": "Diego",
-    "monto": 61852,
+    "monto": 37406,
     "participantes": [
       "Ana",
-      "Bruno",
-      "Carla",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G021",
-    "fecha": "2026-07-08",
-    "descripcion": "Chocolates",
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
     "pagador": "Carla",
-    "monto": 29177,
+    "monto": 17186,
     "participantes": [
-      "Ana"
+      "Ana",
+      "Diego"
     ]
   },
   {
     "gasto_id": "G022",
-    "fecha": "2026-07-08",
-    "descripcion": "Supermercado",
-    "pagador": "Carla",
-    "monto": 84897,
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 24026,
     "participantes": [
       "Ana",
       "Bruno",
-      "Carla",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G023",
-    "fecha": "2026-07-08",
-    "descripcion": "Remis",
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
     "pagador": "Elena",
-    "monto": 14511.5,
+    "monto": 14539,
     "participantes": [
       "Ana",
       "Bruno",
       "Carla",
-      "Diego",
-      "Elena"
+      "Diego"
     ]
   },
   {
     "gasto_id": "G024",
-    "fecha": "2026-07-08",
-    "descripcion": "Pase Cerro Catedral",
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
     "pagador": "Bruno",
-    "monto": 92723,
+    "monto": 123417.99,
     "participantes": [
       "Ana",
-      "Diego",
+      "Bruno",
       "Elena"
     ]
   },
   {
     "gasto_id": "G025",
-    "fecha": "2026-07-09",
-    "descripcion": "Remis",
-    "pagador": "Elena",
-    "monto": 12583.25,
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Bruno",
+    "monto": 46022.99,
     "participantes": [
-      "Ana",
-      "Diego",
+      "Bruno",
+      "Carla",
       "Elena"
     ]
   },
   {
     "gasto_id": "G026",
-    "fecha": "2026-07-09",
-    "descripcion": "Cena",
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
     "pagador": "Diego",
-    "monto": 129862.5,
+    "monto": 21991,
     "participantes": [
+      "Ana",
       "Bruno",
+      "Carla",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G027",
-    "fecha": "2026-07-09",
-    "descripcion": "Nafta",
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
     "pagador": "Diego",
-    "monto": 72610.5,
+    "monto": 10713.5,
     "participantes": [
-      "Ana",
       "Bruno",
       "Carla",
-      "Diego",
-      "Elena"
+      "Diego"
     ]
   },
   {
     "gasto_id": "G028",
-    "fecha": "2026-07-09",
-    "descripcion": "Café y medialunas",
-    "pagador": "Ana",
-    "monto": 14638.25,
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Elena",
+    "monto": 38103.25,
     "participantes": [
       "Ana",
       "Bruno",
-      "Carla",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G029",
-    "fecha": "2026-07-09",
-    "descripcion": "Café y medialunas",
+    "fecha": "2026-01-14",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
     "pagador": "Ana",
-    "monto": 7525.5,
+    "monto": 92499,
     "participantes": [
       "Bruno",
       "Elena"
@@ -368,23 +423,12 @@
   },
   {
     "gasto_id": "G030",
-    "fecha": "2026-07-09",
-    "descripcion": "Excursión Circuito Chico",
-    "pagador": "Bruno",
-    "monto": 53049.25,
-    "participantes": [
-      "Ana",
-      "Bruno",
-      "Diego",
-      "Elena"
-    ]
-  },
-  {
-    "gasto_id": "G031",
-    "fecha": "2026-07-09",
-    "descripcion": "Excursión Circuito Chico",
-    "pagador": "Elena",
-    "monto": 49313.25,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 15207.99,
     "participantes": [
       "Ana",
       "Bruno",
@@ -394,14 +438,29 @@
     ]
   },
   {
-    "gasto_id": "G032",
-    "fecha": "2026-07-10",
-    "descripcion": "Excursión Circuito Chico",
-    "pagador": "Bruno",
-    "monto": 36949.99,
+    "gasto_id": "G031",
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Elena",
+    "monto": 97904,
     "participantes": [
       "Ana",
-      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G032",
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Ana",
+    "monto": 101219,
+    "participantes": [
+      "Ana",
       "Carla",
       "Diego",
       "Elena"
@@ -409,10 +468,12 @@
   },
   {
     "gasto_id": "G033",
-    "fecha": "2026-07-10",
-    "descripcion": "Supermercado",
-    "pagador": "Elena",
-    "monto": 79879,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Bruno",
+    "monto": 16583.99,
     "participantes": [
       "Ana",
       "Bruno",
@@ -423,10 +484,12 @@
   },
   {
     "gasto_id": "G034",
-    "fecha": "2026-07-10",
-    "descripcion": "Café y medialunas",
-    "pagador": "Ana",
-    "monto": 12744,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Bruno",
+    "monto": 10273,
     "participantes": [
       "Ana",
       "Bruno",
@@ -436,34 +499,41 @@
   },
   {
     "gasto_id": "G035",
-    "fecha": "2026-07-10",
-    "descripcion": "Chocolates",
-    "pagador": "Ana",
-    "monto": 15707,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Diego",
+    "monto": 6252,
     "participantes": [
-      "Ana"
+      "Carla",
+      "Diego"
     ]
   },
   {
     "gasto_id": "G036",
-    "fecha": "2026-07-10",
-    "descripcion": "Café y medialunas",
-    "pagador": "Carla",
-    "monto": 13471.25,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Ana",
+    "monto": 17236.25,
     "participantes": [
       "Ana",
-      "Carla"
+      "Carla",
+      "Elena"
     ]
   },
   {
     "gasto_id": "G037",
-    "fecha": "2026-07-10",
-    "descripcion": "Excursión Circuito Chico",
-    "pagador": "Elena",
-    "monto": 60321.5,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Diego",
+    "monto": 70713.25,
     "participantes": [
       "Ana",
-      "Bruno",
       "Carla",
       "Diego",
       "Elena"
@@ -471,22 +541,12 @@
   },
   {
     "gasto_id": "G038",
-    "fecha": "2026-07-10",
-    "descripcion": "Excursión Circuito Chico",
-    "pagador": "Carla",
-    "monto": 83530,
-    "participantes": [
-      "Bruno",
-      "Carla",
-      "Elena"
-    ]
-  },
-  {
-    "gasto_id": "G039",
-    "fecha": "2026-07-10",
-    "descripcion": "Supermercado",
-    "pagador": "Ana",
-    "monto": 44460.5,
+    "fecha": "2026-01-15",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Diego",
+    "monto": 98257,
     "participantes": [
       "Ana",
       "Bruno",
@@ -496,58 +556,85 @@
     ]
   },
   {
-    "gasto_id": "G040",
-    "fecha": "2026-07-10",
-    "descripcion": "Cervecería",
-    "pagador": "Bruno",
-    "monto": 56756,
+    "gasto_id": "G039",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Carla",
+    "monto": 19913,
     "participantes": [
       "Carla",
       "Elena"
     ]
   },
   {
-    "gasto_id": "G041",
-    "fecha": "2026-07-11",
-    "descripcion": "Cena",
+    "gasto_id": "G040",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
     "pagador": "Elena",
-    "monto": 144920.99,
+    "monto": 33679.99,
     "participantes": [
       "Ana",
       "Bruno",
       "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G041",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Ana",
+    "monto": 8059.25,
+    "participantes": [
+      "Ana",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G042",
-    "fecha": "2026-07-11",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
     "descripcion": "Café y medialunas",
     "pagador": "Carla",
     "monto": 12804.5,
     "participantes": [
-      "Bruno",
-      "Diego"
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
     ]
   },
   {
     "gasto_id": "G043",
-    "fecha": "2026-07-11",
-    "descripcion": "Chocolates",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
     "pagador": "Bruno",
-    "monto": 14011.25,
+    "monto": 16895,
     "participantes": [
+      "Ana",
       "Bruno",
       "Diego"
     ]
   },
   {
     "gasto_id": "G044",
-    "fecha": "2026-07-11",
-    "descripcion": "Supermercado",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
     "pagador": "Carla",
-    "monto": 60464.5,
+    "monto": 52732.5,
     "participantes": [
       "Ana",
       "Bruno",
@@ -558,11 +645,14 @@
   },
   {
     "gasto_id": "G045",
-    "fecha": "2026-07-11",
-    "descripcion": "Chocolates",
-    "pagador": "Elena",
-    "monto": 10930,
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Bruno",
+    "monto": 17060,
     "participantes": [
+      "Ana",
       "Bruno",
       "Carla",
       "Elena"
@@ -570,46 +660,57 @@
   },
   {
     "gasto_id": "G046",
-    "fecha": "2026-07-11",
-    "descripcion": "Alquiler de equipo de esquí",
-    "pagador": "Carla",
-    "monto": 113216.99,
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Bruno",
+    "monto": 50418,
     "participantes": [
+      "Ana",
       "Carla",
+      "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G047",
-    "fecha": "2026-07-11",
-    "descripcion": "Cervecería",
-    "pagador": "Diego",
-    "monto": 23820,
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Elena",
+    "monto": 44036,
     "participantes": [
       "Ana",
-      "Bruno"
+      "Carla",
+      "Diego"
     ]
   },
   {
     "gasto_id": "G048",
-    "fecha": "2026-07-12",
-    "descripcion": "Chocolates",
-    "pagador": "Bruno",
-    "monto": 20279,
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Elena",
+    "monto": 166356.5,
     "participantes": [
       "Bruno",
       "Carla",
+      "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G049",
-    "fecha": "2026-07-12",
-    "descripcion": "Remis",
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
     "pagador": "Bruno",
-    "monto": 19289.5,
+    "monto": 81775,
     "participantes": [
-      "Ana",
       "Bruno",
       "Carla",
       "Diego",
@@ -618,23 +719,12 @@
   },
   {
     "gasto_id": "G050",
-    "fecha": "2026-07-12",
-    "descripcion": "Cena",
-    "pagador": "Ana",
-    "monto": 143770,
-    "participantes": [
-      "Ana",
-      "Bruno",
-      "Carla",
-      "Diego"
-    ]
-  },
-  {
-    "gasto_id": "G051",
-    "fecha": "2026-07-12",
-    "descripcion": "Nafta",
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
     "pagador": "Elena",
-    "monto": 54229.99,
+    "monto": 17976,
     "participantes": [
       "Ana",
       "Bruno",
@@ -644,49 +734,57 @@
     ]
   },
   {
-    "gasto_id": "G052",
-    "fecha": "2026-07-12",
-    "descripcion": "Pase Cerro Catedral",
+    "gasto_id": "G051",
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
     "pagador": "Elena",
-    "monto": 137711.99,
+    "monto": 22050.25,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G052",
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Bruno",
+    "monto": 76014,
     "participantes": [
       "Ana",
       "Bruno",
       "Carla",
+      "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G053",
-    "fecha": "2026-07-12",
-    "descripcion": "Excursión Circuito Chico",
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
     "pagador": "Bruno",
-    "monto": 78010.5,
+    "monto": 44598,
     "participantes": [
       "Ana",
+      "Carla",
       "Diego",
       "Elena"
     ]
   },
   {
     "gasto_id": "G054",
-    "fecha": "2026-07-12",
-    "descripcion": "Cervecería",
-    "pagador": "Bruno",
-    "monto": 39196,
-    "participantes": [
-      "Ana",
-      "Carla",
-      "Diego",
-      "Elena"
-    ]
-  },
-  {
-    "gasto_id": "G055",
-    "fecha": "2026-07-12",
-    "descripcion": "Alquiler de equipo de esquí",
+    "fecha": "2026-01-17",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
     "pagador": "Ana",
-    "monto": 107916.5,
+    "monto": 54855.99,
     "participantes": [
       "Ana",
       "Bruno",
@@ -695,34 +793,70 @@
     ]
   },
   {
-    "gasto_id": "G011",
-    "fecha": "2026-07-07",
-    "descripcion": "Chocolates (cargado dos veces)",
-    "pagador": "Diego",
-    "monto": 14636,
+    "gasto_id": "G055",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Bruno",
+    "monto": 13155.25,
     "participantes": [
+      "Ana",
       "Bruno",
-      "Diego",
+      "Carla",
       "Elena"
     ]
   },
   {
-    "gasto_id": "G9",
-    "fecha": "2026-07-08",
-    "descripcion": "Helado",
-    "pagador": "Bruno",
-    "monto": 9000,
+    "gasto_id": "G056",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Ana",
+    "monto": 39587,
     "participantes": [
-      "Bruno",
-      "Carla"
+      "Ana",
+      "Carla",
+      "Elena"
     ]
   },
   {
-    "gasto_id": "G056",
-    "fecha": "2026-06-31",
-    "descripcion": "Peaje",
+    "gasto_id": "G057",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Elena",
+    "monto": 15994,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G058",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Ana",
+    "monto": 39432.99,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G059",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
     "pagador": "Diego",
-    "monto": 4500,
+    "monto": 14171,
     "participantes": [
       "Ana",
       "Bruno",
@@ -732,43 +866,3831 @@
     ]
   },
   {
-    "gasto_id": "G057",
-    "fecha": "2026-07-09",
-    "descripcion": "Farmacia",
-    "pagador": "Elena",
-    "monto": "1.500,00",
+    "gasto_id": "G060",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Carla",
+    "monto": 37704,
     "participantes": [
+      "Carla",
+      "Diego",
       "Elena"
     ]
   },
   {
-    "gasto_id": "G058",
-    "fecha": "2026-07-10",
-    "descripcion": "Devolución",
+    "gasto_id": "G061",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
     "pagador": "Carla",
-    "monto": -2500,
+    "monto": 13087.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G062",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Bruno",
+    "monto": 41438.5,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G063",
+    "fecha": "2026-01-18",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Bruno",
+    "monto": 80234.5,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G064",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Ana",
+    "monto": 70973,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G065",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 11038,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G066",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Carla",
+    "monto": 36226.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G067",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Carla",
+    "monto": 8967.5,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G068",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Bruno",
+    "monto": 22944.25,
+    "participantes": [
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G069",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Bruno",
+    "monto": 91698,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G070",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Elena",
+    "monto": 71298,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G071",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Bruno",
+    "monto": 11406,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G072",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Carla",
+    "monto": 9761.25,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G073",
+    "fecha": "2026-01-19",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Diego",
+    "monto": 8728,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G074",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Carla",
+    "monto": 45414.25,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G075",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Diego",
+    "monto": 11365,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G076",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Carla",
+    "monto": 23786.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G077",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Elena",
+    "monto": 19174.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G078",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Carla",
+    "monto": 73290,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G079",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Elena",
+    "monto": 14528.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G080",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Bruno",
+    "monto": 13028.25,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G081",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Diego",
+    "monto": 39479.25,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G082",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Bruno",
+    "monto": 8150.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G083",
+    "fecha": "2026-01-20",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Carla",
+    "monto": 103717,
     "participantes": [
       "Ana",
       "Carla"
     ]
   },
   {
-    "gasto_id": "G059",
-    "fecha": "2026-07-11",
-    "descripcion": "Pizza",
-    "pagador": "Franco",
-    "monto": 32000,
+    "gasto_id": "G084",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Ana",
+    "monto": 79241,
     "participantes": [
       "Ana",
-      "Franco"
+      "Bruno",
+      "Carla",
+      "Diego"
     ]
   },
   {
-    "gasto_id": "G060",
-    "fecha": "2026-07-12",
+    "gasto_id": "G085",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Bruno",
+    "monto": 28861,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G086",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Bruno",
+    "monto": 45633,
+    "participantes": [
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G087",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Carpa en el balneario",
+    "pagador": "Ana",
+    "monto": 38101,
+    "participantes": [
+      "Ana",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G088",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Ana",
+    "monto": 77711.99,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G089",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Diego",
+    "monto": 11485,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G090",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Diego",
+    "monto": 30317.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G091",
+    "fecha": "2026-01-21",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Ana",
+    "monto": 9582,
+    "participantes": [
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G092",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Alojamiento",
+    "descripcion": "Cabaña en Villa Carlos Paz",
+    "pagador": "Carla",
+    "monto": 335092,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G093",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Nafta ida y vuelta",
+    "pagador": "Carla",
+    "monto": 138415,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G094",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Diego",
+    "monto": 77206,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G095",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Carla",
+    "monto": 9760,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G096",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Peaje",
+    "pagador": "Facundo",
+    "monto": 7985.99,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G097",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Peaje",
+    "pagador": "Ana",
+    "monto": 6776.5,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G098",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Ana",
+    "monto": 68679,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G099",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Facundo",
+    "monto": 87735.25,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G100",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Ana",
+    "monto": 38782.5,
+    "participantes": [
+      "Ana",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G101",
+    "fecha": "2026-02-14",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Ana",
+    "monto": 34322.25,
+    "participantes": [
+      "Ana",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G102",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Facundo",
+    "monto": 56720,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G103",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Diego",
+    "monto": 52450,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G104",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Carla",
+    "monto": 20595,
+    "participantes": [
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G105",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Peaje",
+    "pagador": "Facundo",
+    "monto": 4790.5,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G106",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Diego",
+    "monto": 40796.25,
+    "participantes": [
+      "Ana",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G107",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Diego",
+    "monto": 69466.25,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G108",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Ana",
+    "monto": 132700,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G109",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Facundo",
+    "monto": 8094,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G110",
+    "fecha": "2026-02-15",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Diego",
+    "monto": 109052,
+    "participantes": [
+      "Ana",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G111",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Ana",
+    "monto": 118641.25,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G112",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Facundo",
+    "monto": 58783.99,
+    "participantes": [
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G113",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Diego",
+    "monto": 36939,
+    "participantes": [
+      "Ana",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G114",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 43802.25,
+    "participantes": [
+      "Ana",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G115",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 70921.99,
+    "participantes": [
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G116",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Peaje",
+    "pagador": "Ana",
+    "monto": 7437,
+    "participantes": [
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G117",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Ana",
+    "monto": 61983.5,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G118",
+    "fecha": "2026-02-16",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Carla",
+    "monto": 10696.25,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G119",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Peaje",
+    "pagador": "Facundo",
+    "monto": 3757,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G120",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Carla",
+    "monto": 83920.5,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G121",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión en aerosilla",
+    "pagador": "Facundo",
+    "monto": 76052,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G122",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Facundo",
+    "monto": 142479.5,
+    "participantes": [
+      "Ana",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G123",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 67617,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G124",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Diego",
+    "monto": 137943.99,
+    "participantes": [
+      "Ana",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G125",
+    "fecha": "2026-02-17",
+    "evento": "Finde largo en Córdoba",
+    "categoria": "Transporte",
+    "descripcion": "Peaje",
+    "pagador": "Diego",
+    "monto": 4437.99,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G126",
+    "fecha": "2026-01-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Ana",
+    "monto": 109800.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G127",
+    "fecha": "2026-01-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Carla",
+    "monto": 8926,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G128",
+    "fecha": "2026-01-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Ana",
+    "monto": 20130.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G129",
+    "fecha": "2026-01-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Diego",
+    "monto": 10841,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G130",
+    "fecha": "2026-01-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Elena",
+    "monto": 11726,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G131",
+    "fecha": "2026-02-27",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Carla",
+    "monto": 86443.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G132",
+    "fecha": "2026-02-27",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Elena",
+    "monto": 11362.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G133",
+    "fecha": "2026-02-27",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Carla",
+    "monto": 30261,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G134",
+    "fecha": "2026-02-27",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Bruno",
+    "monto": 9683.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G135",
+    "fecha": "2026-02-27",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Diego",
+    "monto": 17855,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G136",
+    "fecha": "2026-03-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Ana",
+    "monto": 87278,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G137",
+    "fecha": "2026-03-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Carla",
+    "monto": 9987,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G138",
+    "fecha": "2026-03-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Facundo",
+    "monto": 29896,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G139",
+    "fecha": "2026-03-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Carla",
+    "monto": 16426.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G140",
+    "fecha": "2026-03-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Facundo",
+    "monto": 16418,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G141",
+    "fecha": "2026-04-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Bruno",
+    "monto": 119233.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G142",
+    "fecha": "2026-04-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Elena",
+    "monto": 9806,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G143",
+    "fecha": "2026-04-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Facundo",
+    "monto": 37225.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G144",
+    "fecha": "2026-04-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Ana",
+    "monto": 6477,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G145",
+    "fecha": "2026-04-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Facundo",
+    "monto": 15747,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G146",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Elena",
+    "monto": 77662,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G147",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Ana",
+    "monto": 9008.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G148",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Diego",
+    "monto": 31370.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G149",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Elena",
+    "monto": 7086,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G150",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Elena",
+    "monto": 21545,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G151",
+    "fecha": "2026-06-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Carla",
+    "monto": 79790.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G152",
+    "fecha": "2026-06-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Ana",
+    "monto": 15786,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G153",
+    "fecha": "2026-06-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Elena",
+    "monto": 33880,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G154",
+    "fecha": "2026-06-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Diego",
+    "monto": 13353.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G155",
+    "fecha": "2026-06-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Ana",
+    "monto": 18490,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G156",
+    "fecha": "2026-07-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Bruno",
+    "monto": 81068,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G157",
+    "fecha": "2026-07-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Elena",
+    "monto": 12935.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G158",
+    "fecha": "2026-07-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Bruno",
+    "monto": 28458.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G159",
+    "fecha": "2026-07-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Ana",
+    "monto": 16122,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G160",
+    "fecha": "2026-07-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Ana",
+    "monto": 14865,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G161",
+    "fecha": "2026-08-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Diego",
+    "monto": 89014.5,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G162",
+    "fecha": "2026-08-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Carla",
+    "monto": 9703.99,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G163",
+    "fecha": "2026-08-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Diego",
+    "monto": 25340,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G164",
+    "fecha": "2026-08-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Elena",
+    "monto": 9245.25,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G165",
+    "fecha": "2026-08-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Diego",
+    "monto": 18599.5,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G166",
+    "fecha": "2026-09-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Carla",
+    "monto": 119523.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G167",
+    "fecha": "2026-09-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Carla",
+    "monto": 12787,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G168",
+    "fecha": "2026-09-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Ana",
+    "monto": 32366,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G169",
+    "fecha": "2026-09-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Facundo",
+    "monto": 12772.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G170",
+    "fecha": "2026-09-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Ana",
+    "monto": 16924,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G171",
+    "fecha": "2026-10-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carne para el asado",
+    "pagador": "Facundo",
+    "monto": 129931.99,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G172",
+    "fecha": "2026-10-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Carbón y leña",
+    "pagador": "Facundo",
+    "monto": 8018,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G173",
+    "fecha": "2026-10-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Diego",
+    "monto": 21889,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G174",
+    "fecha": "2026-10-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería",
+    "pagador": "Carla",
+    "monto": 17073.25,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G175",
+    "fecha": "2026-10-25",
+    "evento": "Asados del grupo",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Helado",
+    "pagador": "Bruno",
+    "monto": 11758,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G176",
+    "fecha": "2026-04-16",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Regalos",
+    "descripcion": "Regalo para Bruno",
+    "pagador": "Ana",
+    "monto": 119495,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G177",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Torta",
+    "pagador": "Bruno",
+    "monto": 39444.25,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G178",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Supermercado",
+    "descripcion": "Picada",
+    "pagador": "Elena",
+    "monto": 52164.5,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G179",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Carla",
+    "monto": 32957.25,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G180",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Otros",
+    "descripcion": "Hielo y descartables",
+    "pagador": "Diego",
+    "monto": 12759.5,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G181",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Diego",
+    "monto": 62562,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G182",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Facundo",
+    "monto": 16670,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G183",
+    "fecha": "2026-04-18",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas de madrugada",
+    "pagador": "Ana",
+    "monto": 31777.5,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G184",
+    "fecha": "2026-04-19",
+    "evento": "Cumpleaños de Bruno",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Elena",
+    "monto": 16977,
+    "participantes": [
+      "Ana",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G185",
+    "fecha": "2026-08-20",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Regalos",
+    "descripcion": "Regalo para Elena",
+    "pagador": "Carla",
+    "monto": 96205,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G186",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Torta",
+    "pagador": "Elena",
+    "monto": 43424,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G187",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Supermercado",
+    "descripcion": "Picada",
+    "pagador": "Elena",
+    "monto": 41394,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G188",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Ana",
+    "monto": 24790,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G189",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Otros",
+    "descripcion": "Hielo y descartables",
+    "pagador": "Ana",
+    "monto": 8216.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G190",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al boliche",
+    "pagador": "Diego",
+    "monto": 91624,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G191",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 17057,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G192",
+    "fecha": "2026-08-22",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas de madrugada",
+    "pagador": "Carla",
+    "monto": 29785,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G193",
+    "fecha": "2026-08-23",
+    "evento": "Cumpleaños de Elena",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Diego",
+    "monto": 7475,
+    "participantes": [
+      "Ana",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G194",
+    "fecha": "2026-06-16",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Carla",
+    "monto": 35955.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G195",
+    "fecha": "2026-06-16",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Bruno",
+    "monto": 40491.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G196",
+    "fecha": "2026-06-16",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Facundo",
+    "monto": 37006,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G197",
+    "fecha": "2026-06-16",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Carla",
+    "monto": 8428.99,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G198",
+    "fecha": "2026-06-22",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Carla",
+    "monto": 32391.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G199",
+    "fecha": "2026-06-22",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Ana",
+    "monto": 37285.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G200",
+    "fecha": "2026-06-22",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Bruno",
+    "monto": 36606.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G201",
+    "fecha": "2026-06-22",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Ana",
+    "monto": 11248.5,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G202",
+    "fecha": "2026-06-27",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Bruno",
+    "monto": 40072,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G203",
+    "fecha": "2026-06-27",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Facundo",
+    "monto": 21406,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G204",
+    "fecha": "2026-06-27",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Bruno",
+    "monto": 36930.5,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G205",
+    "fecha": "2026-06-27",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Bruno",
+    "monto": 13781,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G206",
+    "fecha": "2026-07-03",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Elena",
+    "monto": 33971.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G207",
+    "fecha": "2026-07-03",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Carla",
+    "monto": 33029,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G208",
+    "fecha": "2026-07-03",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Bruno",
+    "monto": 13793,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G209",
+    "fecha": "2026-07-03",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Ana",
+    "monto": 9073,
+    "participantes": [
+      "Ana",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G210",
+    "fecha": "2026-07-09",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Carla",
+    "monto": 31580,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G211",
+    "fecha": "2026-07-09",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Diego",
+    "monto": 30216.25,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G212",
+    "fecha": "2026-07-09",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Carla",
+    "monto": 39969,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G213",
+    "fecha": "2026-07-09",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Ana",
+    "monto": 10912,
+    "participantes": [
+      "Ana",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G214",
+    "fecha": "2026-07-14",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Bruno",
+    "monto": 25112,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G215",
+    "fecha": "2026-07-14",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Ana",
+    "monto": 34118.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G216",
+    "fecha": "2026-07-14",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Ana",
+    "monto": 14677,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G217",
+    "fecha": "2026-07-14",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Bruno",
+    "monto": 14357.25,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G218",
+    "fecha": "2026-07-19",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Pizzas",
+    "pagador": "Bruno",
+    "monto": 27012,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G219",
+    "fecha": "2026-07-19",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Empanadas",
+    "pagador": "Ana",
+    "monto": 39134.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G220",
+    "fecha": "2026-07-19",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas para la casa",
+    "pagador": "Carla",
+    "monto": 22290,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G221",
+    "fecha": "2026-07-19",
+    "evento": "Mundial 2026: partidos de Argentina",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Facturas para el partido",
+    "pagador": "Carla",
+    "monto": 8789.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G222",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Alojamiento",
+    "descripcion": "Cabaña 7 noches",
+    "pagador": "Diego",
+    "monto": 904382.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G223",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Transporte",
+    "descripcion": "Pasajes de avión",
+    "pagador": "Bruno",
+    "monto": 982985.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G224",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 13457.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G225",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Diego",
+    "monto": 55923,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G226",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Elena",
+    "monto": 67784,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G227",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Bruno",
+    "monto": 48540.99,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G228",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Bruno",
+    "monto": 55610.99,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G229",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Elena",
+    "monto": 93277.25,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G230",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Diego",
+    "monto": 89639.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G231",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Bruno",
+    "monto": 69947,
+    "participantes": [
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G232",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Elena",
+    "monto": 18505,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G233",
+    "fecha": "2026-07-27",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Chocolates",
+    "pagador": "Bruno",
+    "monto": 11074,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G234",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 13988.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G235",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Bruno",
+    "monto": 13039,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G236",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Carla",
+    "monto": 6952,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G237",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Ana",
+    "monto": 47157,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G238",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 15074,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G239",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Bruno",
+    "monto": 39196.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G240",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Bruno",
+    "monto": 83193,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G241",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Ana",
+    "monto": 73218.99,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G242",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Elena",
+    "monto": 145422,
+    "participantes": [
+      "Bruno",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G243",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Ana",
+    "monto": 129297,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G244",
+    "fecha": "2026-07-28",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Bruno",
+    "monto": 9027,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G245",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Alquiler de equipo de esquí",
+    "pagador": "Diego",
+    "monto": 51041,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G246",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Elena",
+    "monto": 67601,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G247",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Diego",
+    "monto": 47625,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G248",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Carla",
+    "monto": 77969.99,
+    "participantes": [
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G249",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Chocolates",
+    "pagador": "Bruno",
+    "monto": 28092,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G250",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Ana",
+    "monto": 9663.25,
+    "participantes": [
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G251",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Ana",
+    "monto": 10533.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G252",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Diego",
+    "monto": 69111.25,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G253",
+    "fecha": "2026-07-29",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Elena",
+    "monto": 79595.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G254",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 40994.5,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G255",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Elena",
+    "monto": 46001,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G256",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Carla",
+    "monto": 6307.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G257",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 68346,
+    "participantes": [
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G258",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Elena",
+    "monto": 113546,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G259",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Diego",
+    "monto": 72935,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G260",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Ana",
+    "monto": 91752,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G261",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Bruno",
+    "monto": 62654.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G262",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Carla",
+    "monto": 86016,
+    "participantes": [
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G263",
+    "fecha": "2026-07-30",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 12963.5,
+    "participantes": [
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G264",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Diego",
+    "monto": 13200.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G265",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Carla",
+    "monto": 98291,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G266",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Bruno",
+    "monto": 29135.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G267",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Bruno",
+    "monto": 79541,
+    "participantes": [
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G268",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Diego",
+    "monto": 18685,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G269",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 14009,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G270",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 12931,
+    "participantes": [
+      "Bruno",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G271",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Chocolates",
+    "pagador": "Diego",
+    "monto": 26646.25,
+    "participantes": [
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G272",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Carla",
+    "monto": 11345,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G273",
+    "fecha": "2026-07-31",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Carla",
+    "monto": 5062,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G274",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Elena",
+    "monto": 53189,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G275",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Carla",
+    "monto": 76679.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G276",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Ana",
+    "monto": 10653,
+    "participantes": [
+      "Ana",
+      "Carla"
+    ]
+  },
+  {
+    "gasto_id": "G277",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Ana",
+    "monto": 10224.99,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G278",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Carla",
+    "monto": 80172,
+    "participantes": [
+      "Ana",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G279",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Elena",
+    "monto": 69219.99,
+    "participantes": [
+      "Ana",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G280",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 48252.5,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G281",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Ana",
+    "monto": 12628,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G282",
+    "fecha": "2026-08-01",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Ana",
+    "monto": 61050.99,
+    "participantes": [
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G283",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Pase Cerro Catedral",
+    "pagador": "Bruno",
+    "monto": 79921,
+    "participantes": [
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G284",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Almuerzo",
+    "pagador": "Diego",
+    "monto": 72320.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G285",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Chocolates",
+    "pagador": "Carla",
+    "monto": 12625,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G286",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Chocolates",
+    "pagador": "Elena",
+    "monto": 24431,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G287",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Carla",
+    "monto": 7969.25,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G288",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Bruno",
+    "monto": 42150,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G289",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Excursión Circuito Chico",
+    "pagador": "Diego",
+    "monto": 81902,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G290",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Supermercado",
+    "descripcion": "Supermercado",
+    "pagador": "Elena",
+    "monto": 40809.99,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G291",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cervecería",
+    "pagador": "Elena",
+    "monto": 30345,
+    "participantes": [
+      "Ana",
+      "Bruno",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G292",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Café y medialunas",
+    "pagador": "Diego",
+    "monto": 13391.5,
+    "participantes": [
+      "Carla",
+      "Diego"
+    ]
+  },
+  {
+    "gasto_id": "G293",
+    "fecha": "2026-08-02",
+    "evento": "Viaje a Bariloche",
+    "categoria": "Otros",
+    "descripcion": "Farmacia",
+    "pagador": "Elena",
+    "monto": 6184.25,
+    "participantes": [
+      "Carla",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G294",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Alojamiento",
+    "descripcion": "Hostel 1 noche",
+    "pagador": "Bruno",
+    "monto": 70102.99,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G295",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Transporte",
+    "descripcion": "Micro Rosario - Buenos Aires",
+    "pagador": "Facundo",
+    "monto": 167802,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G296",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Comidas y bebidas",
+    "descripcion": "Cena afuera",
+    "pagador": "Bruno",
+    "monto": 169098.5,
+    "participantes": [
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G297",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Bruno",
+    "monto": 18836,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G298",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Otros",
+    "descripcion": "Merchandising",
+    "pagador": "Facundo",
+    "monto": 39629,
+    "participantes": [
+      "Bruno",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G299",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Otros",
+    "descripcion": "Merchandising",
+    "pagador": "Bruno",
+    "monto": 47606,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G300",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Otros",
+    "descripcion": "Merchandising",
+    "pagador": "Bruno",
+    "monto": 25416,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G301",
+    "fecha": "2026-09-27",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Facundo",
+    "monto": 7724,
+    "participantes": [
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G302",
+    "fecha": "2026-09-27",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Elena",
+    "monto": 19412.25,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G303",
+    "fecha": "2026-09-27",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Otros",
+    "descripcion": "Merchandising",
+    "pagador": "Elena",
+    "monto": 44460.5,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G304",
+    "fecha": "2026-09-27",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Elena",
+    "monto": 7376.99,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G305",
+    "fecha": "2026-09-27",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Transporte",
+    "descripcion": "Remis",
+    "pagador": "Elena",
+    "monto": 8928.25,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G306",
+    "fecha": "2026-09-26",
+    "evento": "Recital en Buenos Aires",
+    "categoria": "Actividades y entradas",
+    "descripcion": "Entradas al recital",
+    "pagador": "Facundo",
+    "monto": 285000,
+    "participantes": [
+      "Bruno",
+      "Elena",
+      "Facundo"
+    ]
+  },
+  {
+    "gasto_id": "G041",
+    "fecha": "2026-01-16",
+    "evento": "Vacaciones en Mar del Plata",
+    "categoria": "Supermercado",
+    "descripcion": "Verdulería (cargado dos veces)",
+    "pagador": "Ana",
+    "monto": 8059.25,
+    "participantes": [
+      "Ana",
+      "Diego",
+      "Elena"
+    ]
+  },
+  {
+    "gasto_id": "G12",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Helado",
+    "pagador": "Ana",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G308",
+    "fecha": "2026-02-30",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Peaje",
+    "pagador": "Ana",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G309",
+    "fecha": "15/03/2026",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Fernet",
+    "pagador": "Ana",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G310",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Farmacia",
+    "pagador": "Ana",
+    "monto": "1.500,00",
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G311",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Devolución",
+    "pagador": "Ana",
+    "monto": -2500,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G312",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
     "descripcion": "Propina",
     "pagador": "Ana",
-    "monto": 5000,
+    "monto": 0,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G313",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Pizza",
+    "pagador": "Mateo",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Mateo"
+    ]
+  },
+  {
+    "gasto_id": "G314",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Hielo",
+    "pagador": "Ana",
+    "monto": 10000,
     "participantes": []
+  },
+  {
+    "gasto_id": "G315",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Supermercado",
+    "descripcion": "Bebidas",
+    "pagador": "Ana",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G316",
+    "fecha": "2026-05-25",
+    "evento": "Asados del grupo",
+    "categoria": "Varios",
+    "descripcion": "Cosas sueltas",
+    "pagador": "Ana",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
+  },
+  {
+    "gasto_id": "G317",
+    "fecha": "2026-05-25",
+    "evento": "",
+    "categoria": "Transporte",
+    "descripcion": "Taxi sin evento",
+    "pagador": "Ana",
+    "monto": 10000,
+    "participantes": [
+      "Ana",
+      "Bruno"
+    ]
   }
 ]
