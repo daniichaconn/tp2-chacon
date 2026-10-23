@@ -106,7 +106,7 @@ Se guardan en `outputs/`, o en la carpeta indicada con `--salida`:
 | `conclusiones.txt` | las conclusiones escritas | `estadisticas` |
 | `graficos/categorias.png`, `meses.png`, `saldos.png` | los gráficos | `graficos` |
 
-## 4. Datos
+## 4. Datos de prueba (simulados)
 
 - **Origen:** datos **simulados** generados por `scripts/generar_datos.py`, con semilla fija (`2026`) para que sean reproducibles. Representan los gastos de seis amigos de enero a octubre de 2026. Las personas, los alias y los montos son inventados.
 - **Licencia:** creados para este trabajo; se pueden usar libremente.
