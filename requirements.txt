@@ -1,1 +1,3 @@
-# Sin dependencias externas: solo biblioteca estándar de Python 3.10+
+# Dependencias externas (se instalan con: pip install -r requirements.txt)
+rich>=13.7
+matplotlib>=3.8
